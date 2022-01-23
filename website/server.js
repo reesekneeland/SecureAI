@@ -63,7 +63,6 @@ app.post('/send_password', function (req, res) {
         // console.log('Pipe data from python script ...');
         //dataToSend = data.toString();
         //console.log(dataToSend);
-      });
     
       })
 
