@@ -95,6 +95,28 @@ app.post('/send_password', function (req, res) {
     res.redirect("/gallery");
 });
 
+app.post('/updateLike', function (req, res) {
+
+    fs.readFile('client/data.json', function (err, jsonData) {
+        if (err) {
+            throw err;
+        }
+        //  Parse the schedule.json file and
+        //  the post request with
+        let jsonFileData = JSON.parse(jsonData);
+        jsonFileData.posts[req.body.item-1].likes++;
+
+        fs.writeFile("client/data.json", JSON.stringify(jsonFileData, null, 3), function (err) {
+            if (err) {
+                throw err;
+            }
+        });
+        
+    }); 
+
+    res.redirect("/gallery");
+});
+
 app.get('/getImages', function (req, res) {
 
     counter = 0;
