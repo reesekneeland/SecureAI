@@ -14,7 +14,7 @@ out = subprocess.Popen(['screen', '-ls'],
            stdout=subprocess.PIPE, 
            stderr=subprocess.STDOUT)
 stdout,stderr = out.communicate()
-while("No Sockets found" not in str(stdout)): #Run this thread in an infinite loop until there are no open screens
+while("AIGen" in str(stdout)): #Run this thread in an infinite loop until there are no open screens
     time.sleep(10)
     out = subprocess.Popen(['screen', '-ls'], 
            stdout=subprocess.PIPE, 
@@ -26,7 +26,7 @@ while("No Sockets found" not in str(stdout)): #Run this thread in an infinite lo
 strengthScore = 20
 os.system("echo strengthScore: " + str(strengthScore))
 classes = []
-with open('/home/reese/Minnehack_2022/classes.csv', 'r') as rf:
+with open('/home/reese/Minnehack_2022/minnehack22/classes.csv', 'r') as rf:
     reader = csv.reader(rf, delimiter=',')
     for row in reader:
       classes.append(row[1])
@@ -56,7 +56,7 @@ out = subprocess.Popen(['screen', '-ls'],
            stderr=subprocess.STDOUT)
 stdout,stderr = out.communicate()
 print("processing")
-while("No Sockets found" not in str(stdout)):
+while("AIGen" in str(stdout)):
     time.sleep(1)
     out = subprocess.Popen(['screen', '-ls'], 
            stdout=subprocess.PIPE, 

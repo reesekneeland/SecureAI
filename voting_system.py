@@ -6,10 +6,10 @@ class VotingSystem:
         self.fl = fl
         with open(self.fl, 'r') as file:
             self.db = json.load(open(file))
-            
-    def winnerImmage(self):
+
+    def winnerImage(self):
         winners = 1
-        if len(self.db) == winners: return self.img_dbsample(winners, sort=True, ascending=False)
+        if len(self.db) == winners: return self.img_dbSample(winners, sort=True, ascending=False)
         else:
             for tup in list(self.db.items())[1:]:
                 if tup[1][0] == list(self.db.values())[0][0]: winners += 1
@@ -31,6 +31,7 @@ class VotingSystem:
         with open(self.fl, 'w') as file:
             json.dump(self.db, file)
         
+
     def updateImage(self, img, ave, num, stren, rm=False):
         if not rm: self.db[img] = (((self.db[img][0] + ave) // self.db[img][1] + num), self.db[img][1] + num, stren)
         elif rm == True: self.db.pop(img)
@@ -39,4 +40,13 @@ class VotingSystem:
             json.dump(self.db, file)
 
     def getImageRate(self, img):
+        return self.db[img][0]
+
+    def getImageStrength(self, img):
+        return self.db[img][2]
+
+    def getImageTotalVotes(self, img):
         return self.db[img][1]
+
+    def getTotalImages(self):
+        return len(self.db)
