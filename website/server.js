@@ -56,18 +56,18 @@ app.post('/send_password', function (req, res) {
   const dire = './images';
     fs.readdir(dire, (err, files) => {
         counter = files.length;
-        let password = req.body.password;
+        let password = req.body.password;    
+        console.log(counter);
         const python = spawn('python3', ['generateImage.py', password, (counter + 1)]);
-        python.stdout.on('data', function (data) {
+        //python.stdout.on('data', function (data) {
         // console.log('Pipe data from python script ...');
-        dataToSend = data.toString();
-        // console.log(dataToSend);
+        //dataToSend = data.toString();
+        //console.log(dataToSend);
       });
     
       })
 
 
-    // //DELETE THIS AFTER IT JST TRACKS BUFFER FROM PYTHONs
     
 
     res.redirect("/gallery");
