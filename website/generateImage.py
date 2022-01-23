@@ -1,6 +1,6 @@
 
 from password_strength import PasswordStats
-from pass_checkerf import passStrength
+from minnehack22.website.pass_checkerf import passStrength
 import re
 import sys
 import os
@@ -23,8 +23,7 @@ while("AIGen" in str(stdout)): #Run this thread in an infinite loop until there 
     stdout,stderr = out.communicate()
     print("waiting for other processes to complete")
 
-# strengthScore = passStrength(password, PasswordStats)
-strengthScore = 20
+strengthScore = passStrength(password, PasswordStats)
 os.system("echo strengthScore: " + str(strengthScore))
 classes = []
 with open('/home/reese/Minnehack_2022/minnehack22/classes.csv', 'r') as rf:
@@ -40,7 +39,7 @@ def getKey():
 
 cmdString = ""
 os.system("echo generating")
-cmdString = ("cgd --image_size 256 -respace 25 --prompts \"" + password + ":1")
+cmdString = ("cgd --image_size 256 -respace 150 --prompts \"" + password + ":1")
 complexityWeight = 0.005*strengthScore
 prompts = 1 + int(strengthScore / 30)
 os.system("echo promptCount: " + str(prompts))
@@ -64,6 +63,5 @@ while("AIGen" in str(stdout)):
            stderr=subprocess.STDOUT)
     stdout,stderr = out.communicate()
     print("processing")
-    
-print(filename)
+
 os.rename("current.png", "/home/reese/Minnehack_2022/minnehack22/website/images/" + filename)
