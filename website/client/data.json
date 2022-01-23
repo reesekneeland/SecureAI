@@ -4,6 +4,7 @@
          "user": "Reese",
          "counter": 1,
          "strenght": "5",
+<<<<<<< HEAD
          "likes": 27
       },
       {
@@ -11,6 +12,345 @@
          "counter": 2,
          "strenght": "5",
          "likes": 28
+=======
+         "likes": 2
+      },
+      {
+         "user": "Anonymous",
+         "counter": 2,
+         "strenght": "13",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 2,
+         "strenght": "CMD STRING: cgd --image_size 256 --prompts Horse:1|entrenching tool:0.0325 -respace 25",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 2,
+         "strenght": "Using device cuda. You can specify a device manually with `--device/-dev`",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 2,
+         "strenght": "image creation done",
+         "likes": 0
+      },
+      {
+         "user": "Jordyn",
+         "counter": 3,
+         "strenght": "52",
+         "likes": 0
+      },
+      {
+         "user": "Jordyn",
+         "counter": 3,
+         "strenght": "CMD STRING: cgd --image_size 256 --prompts password123!:1|car battery:0.13|Chinese paddlefish:0.13|spiral:0.52 --clip_guidance_scale 2000 -respace 150",
+         "likes": 0
+      },
+      {
+         "user": "Jordyn",
+         "counter": 3,
+         "strenght": "Using device cuda. You can specify a device manually with `--device/-dev`",
+         "likes": 0
+      },
+      {
+         "user": "Jordyn",
+         "counter": 3,
+         "strenght": "CLIP Loss: 1745.695\tRange Loss: 0.001\tTV Loss: 22.803\tTotal Loss: 1768.499",
+         "likes": 0
+      },
+      {
+         "user": "Jordyn",
+         "counter": 3,
+         "strenght": "image creation done",
+         "likes": 0
+      },
+      {
+         "user": "Jovan",
+         "counter": 4,
+         "strenght": "27",
+         "likes": 0
+      },
+      {
+         "user": "Jovan",
+         "counter": 4,
+         "strenght": "Using device cuda. You can specify a device manually with `--device/-dev`",
+         "likes": 0
+      },
+      {
+         "user": "Bob",
+         "counter": 5,
+         "strenght": "64",
+         "likes": 0
+      },
+      {
+         "user": "Bob",
+         "counter": 5,
+         "strenght": "Using device cuda",
+         "likes": 0
+      },
+      {
+         "user": "Bob",
+         "counter": 5,
+         "strenght": "CLIP Loss: 1726.264\tRange Loss: 0.000\tTV Loss: 22.688\tTotal Loss: 1748.952",
+         "likes": 0
+      },
+      {
+         "user": "Tod",
+         "counter": 6,
+         "strenght": "57\n",
+         "likes": 0
+      },
+      {
+         "user": "Tod",
+         "counter": 6,
+         "strenght": "Using device cuda\n--wandb_project not specified. Skipping W&B integration.\nLoading clip model\tViT-B/32\ton device\tcuda.\nCLIP Loss: 1852.987\tRange Loss: 0.001\tTV Loss: 11.196\tTotal Loss: 1864.184\nCLIP Loss: 1843.180\tRange Loss: 0.000\tTV Loss: 4.397\tTotal Loss: 1847.577\nCLIP Loss: 1835.143\tRange Loss: 0.000\tTV Loss: 3.751\tTotal Loss: 1838.894\nCLIP Loss: 1817.874\tRange Loss: 0.000\tTV Loss: 4.590\tTotal Loss: 1822.465\nCLIP Loss: 1832.313\tRange Loss: 0.001\tTV Loss: 3.334\tTotal Loss: 1835.648\nCLIP Loss: 1803.296\tRange Loss: 0.000\tTV Loss: 2.901\tTotal Loss: 1806.197\nCLIP Loss: 1819.744\tRange Loss: 0.000\tTV Loss: 2.642\tTotal Loss: 1822.387\nCLIP Loss: 1827.346\tRange Loss: 0.000\tTV Loss: 2.557\tTotal Loss: 1829.903\nCLIP Loss: 1824.621\tRange Loss: 0.000\tTV Loss: 2.134\tTotal Loss: 1826.755\nCLIP Loss: 1804.131\tRange Loss: 0.000\tTV Loss: 1.905\tTotal Loss: 1806.036\nCLIP Loss: 1821.557\tRange Loss: 0.000\tTV Loss: 2.593\tTotal Loss: 1824.150\nCLIP Loss: 1807.280\tRange Loss: 0.000\tTV Loss: 4.294\tTotal Loss: 1811.574\nCLIP Loss: 1800.800\tRange Loss: 0.000\tTV Loss: 3.656\tTotal Loss: 1804.456\nCLIP Loss: 1813.754\tRange Loss: 0.000\tTV Loss: 2.109\tTotal Loss: 1815.864\nCLIP Loss: 1800.529\tRange Loss: 0.000\tTV Loss: 1.564\tTotal Loss: 1802.093\nCLIP Loss: 1799.438\tRange Loss: 0.000\tTV Loss: 1.892\tTotal Loss: 1801.330\nCLIP Loss: 1807.296\tRange Loss: 0.000\tTV Loss: 2.216\tTotal Loss: 1809.512\nCLIP Loss: 1795.813\tRange Loss: 0.000\tTV Loss: 1.586\tTotal Loss: 1797.399\nCLIP Loss: 1803.741\tRange Loss: 0.002\tTV Loss: 2.266\tTotal Loss: 1806.008\nCLIP Loss: 1785.232\tRange Loss: 0.000\tTV Loss: 3.354\tTotal Loss: 1788.586\nCLIP Loss: 1799.715\tRange Loss: 0.000\tTV Loss: 1.869\tTotal Loss: 1801.583\nCLIP Loss: 1803.283\tRange Loss: 0.000\tTV Loss: 1.535\tTotal Loss: 1804.818\nCLIP Loss: 1820.068\tRange Loss: 0.002\tTV Loss: 1.685\tTotal Loss: 1821.755\nCLIP Loss: 1798.546\tRange Loss: 0.000\tTV Loss: 1.950\tTotal Loss: 1800.496\nCLIP Loss: 1798.905\tRange Loss: 0.000\tTV Loss: 1.710\tTotal Loss: 1800.615\nCLIP Loss: 1820.675\tRange Loss: 0.000\tTV Loss: 1.100\tTotal Loss: 1821.775\nCLIP Loss: 1800.140\tRange Loss: 0.000\tTV Loss: 0.969\tTotal Loss: 1801.110\nCLIP Loss: 1789.534\tRange Loss: 0.000\tTV Loss: 0.990\tTotal Loss: 1790.525\nCLIP Loss: 1784.853\tRange Loss: 0.000\tTV Loss: 1.101\tTotal Loss: 1785.954\nCLIP Loss: 1794.099\tRange Loss: 0.000\tTV Loss: 0.981\tTotal Loss: 1795.080\nCLIP Loss: 1812.465\tRange Loss: 0.000\tTV Loss: 0.529\tTotal Loss: 1812.995\nCLIP Loss: 1794.365\tRange Loss: 0.000\tTV Loss: 0.601\tTotal Loss: 1794.966\nCLIP Loss: 1785.193\tRange Loss: 0.000\tTV Loss: 0.709\tTotal Loss: 1785.902\nCLIP Loss: 1794.070\tRange Loss: 0.000\tTV Loss: 0.588\tTotal Loss: 1794.658\nCLIP Loss: 1803.151\tRange Loss: 0.000\tTV Loss: 0.570\tTotal Loss: 1803.721\nCLIP Loss: 1790.444\tRange Loss: 0.000\tTV Loss: 0.559\tTotal Loss: 1791.003\nCLIP Loss: 1795.930\tRange Loss: 0.000\tTV Loss: 0.562\tTotal Loss: 1796.492\nCLIP Loss: 1810.582\tRange Loss: 0.000\tTV Loss: 0.619\tTotal Loss: 1811.201\nCLIP Loss: 1793.193\tRange Loss: 0.000\tTV Loss: 0.582\tTotal Loss: 1793.775\nCLIP Loss: 1812.125\tRange Loss: 0.000\tTV Loss: 0.497\tTotal Loss: 1812.622\nCLIP Loss: 1800.693\tRange Loss: 0.000\tTV Loss: 0.576\tTotal Loss: 1801.270\nCLIP Loss: 1793.258\tRange Loss: 0.000\tTV Loss: 0.571\tTotal Loss: 1793.829\nCLIP Loss: 1780.698\tRange Loss: 0.000\tTV Loss: 0.553\tTotal Loss: 1781.251\nCLIP Loss: 1807.868\tRange Loss: 0.000\tTV Loss: 0.468\tTotal Loss: 1808.337\nCLIP Loss: 1785.732\tRange Loss: 0.000\tTV Loss: 0.384\tTotal Loss: 1786.117\nCLIP Loss: 1793.370\tRange Loss: 0.000\tTV Loss: 0.433\tTotal Loss: 1793.803\nCLIP Loss: 1806.341\tRange Loss: 0.000\tTV Loss: 0.460\tTotal Loss: 1806.801\nCLIP Loss: 1785.449\tRange Loss: 0.000\tTV Loss: 0.483\tTotal Loss: 1785.932\nCLIP Loss: 1777.455\tRange Loss: 0.000\tTV Loss: 0.416\tTotal Loss: 1777.871\nCLIP Loss: 1779.713\tRange Loss: 0.000\tTV Loss: 0.276\tTotal Loss: 1779.989\nCLIP Loss: 1780.618\tRange Loss: 0.000\tTV Loss: 0.302\tTotal Loss: 1780.920\nCLIP Loss: 1790.279\tRange Loss: 0.000\tTV Loss: 0.321\tTotal Loss: 1790.600\nCLIP Loss: 1777.986\tRange Loss: 0.000\tTV Loss: 0.257\tTotal Loss: 1778.243\nCLIP Loss: 1790.862\tRange Loss: 0.000\tTV Loss: 0.296\tTotal Loss: 1791.158\nCLIP Loss: 1766.110\tRange Loss: 0.000\tTV Loss: 0.347\tTotal Loss: 1766.457\nCLIP Loss: 1759.263\tRange Loss: 0.000\tTV Loss: 0.384\tTotal Loss: 1759.647\nCLIP Loss: 1757.812\tRange Loss: 0.000\tTV Loss: 0.355\tTotal Loss: 1758.166\nCLIP Loss: 1762.578\tRange Loss: 0.000\tTV Loss: 0.350\tTotal Loss: 1762.928\nCLIP Loss: 1754.411\tRange Loss: 0.000\tTV Loss: 0.373\tTotal Loss: 1754.784\nCLIP Loss: 1756.878\tRange Loss: 0.000\tTV Loss: 0.375\tTotal Loss: 1757.252\nCLIP Loss: 1750.993\tRange Loss: 0.000\tTV Loss: 0.378\tTotal Loss: 1751.371\nCLIP Loss: 1758.772\tRange Loss: 0.000\tTV Loss: 0.384\tTotal Loss: 1759.156\nCLIP Loss: 1746.966\tRange Loss: 0.000\tTV Loss: 0.427\tTotal Loss: 1747.393\nCLIP Loss: 1742.594\tRange Loss: 0.000\tTV Loss: 0.464\tTotal Loss: 1743.057\nCLIP Loss: 1741.879\tRange Loss: 0.000\tTV Loss: 0.466\tTotal Loss: 1742.345\nCLIP Loss: 1772.572\tRange Loss: 0.000\tTV Loss: 0.583\tTotal Loss: 1773.155\nCLIP Loss: 1748.649\tRange Loss: 0.000\tTV Loss: 0.637\tTotal Loss: 1749.286\nCLIP Loss: 1744.028\tRange Loss: 0.000\tTV Loss: 0.625\tTotal Loss: 1744.653\nCLIP Loss: 1748.914\tRange Loss: 0.000\tTV Loss: 0.705\tTotal Loss: 1749.619\nCLIP Loss: 1739.579\tRange Loss: 0.000\tTV Loss: 0.667\tTotal Loss: 1740.246\nCLIP Loss: 1731.875\tRange Loss: 0.000\tTV Loss: 0.753\tTotal Loss: 1732.628\nCLIP Loss: 1738.138\tRange Loss: 0.000\tTV Loss: 0.812\tTotal Loss: 1738.950\nCLIP Loss: 1734.835\tRange Loss: 0.000\tTV Loss: 0.898\tTotal Loss: 1735.733\nCLIP Loss: 1737.372\tRange Loss: 0.000\tTV Loss: 1.005\tTotal Loss: 1738.377\nCLIP Loss: 1730.848\tRange Loss: 0.000\tTV Loss: 1.052\tTotal Loss: 1731.900\nCLIP Loss: 1732.301\tRange Loss: 0.000\tTV Loss: 1.216\tTotal Loss: 1733.517\nCLIP Loss: 1734.486\tRange Loss: 0.000\tTV Loss: 1.530\tTotal Loss: 1736.016\nCLIP Loss: 1732.227\tRange Loss: 0.000\tTV Loss: 1.580\tTotal Loss: 1733.807\nCLIP Loss: 1734.691\tRange Loss: 0.000\tTV Loss: 1.686\tTotal Loss: 1736.378\nCLIP Loss: 1747.393\tRange Loss: 0.000\tTV Loss: 1.770\tTotal Loss: 1749.164\nCLIP Loss: 1739.274\tRange Loss: 0.000\tTV Loss: 2.096\tTotal Loss: 1741.369\nCLIP Loss: 1738.525\tRange Loss: 0.000\tTV Loss: 2.299\tTotal Loss: 1740.825\nCLIP Loss: 1745.149\tRange Loss: 0.000\tTV Loss: 2.487\tTotal Loss: 1747.636\nCLIP Loss: 1738.684\tRange Loss: 0.000\tTV Loss: 2.782\tTotal Loss: 1741.466\nCLIP Loss: 1738.073\tRange Loss: 0.000\tTV Loss: 3.247\tTotal Loss: 1741.319\nCLIP Loss: 1736.978\tRange Loss: 0.000\tTV Loss: 3.502\tTotal Loss: 1740.480\nCLIP Loss: 1747.684\tRange Loss: 0.000\tTV Loss: 3.812\tTotal Loss: 1751.497\nCLIP Loss: 1738.997\tRange Loss: 0.000\tTV Loss: 4.018\tTotal Loss: 1743.015\nCLIP Loss: 1745.962\tRange Loss: 0.000\tTV Loss: 4.522\tTotal Loss: 1750.484\nCLIP Loss: 1747.130\tRange Loss: 0.000\tTV Loss: 5.026\tTotal Loss: 1752.157\nCLIP Loss: 1753.002\tRange Loss: 0.000\tTV Loss: 5.525\tTotal Loss: 1758.527\nCLIP Loss: 1746.780\tRange Loss: 0.000\tTV Loss: 6.058\tTotal Loss: 1752.838\nCLIP Loss: 1749.034\tRange Loss: 0.000\tTV Loss: 6.733\tTotal Loss: 1755.767\nCLIP Loss: 1746.570\tRange Loss: 0.000\tTV Loss: 7.473\tTotal Loss: 1754.042\nCLIP Loss: 1748.431\tRange Loss: 0.000\tTV Loss: 7.901\tTotal Loss: 1756.333\nCLIP Loss: 1750.585\tRange Loss: 0.000\tTV Loss: 8.907\tTotal Loss: 1759.492\nCLIP Loss: 1751.812\tRange Loss: 0.000\tTV Loss: 9.875\tTotal Loss: 1761.688\nCLIP Loss: 1745.266\tRange Loss: 0.000\tTV Loss: 10.676\tTotal Loss: 1755.942\nCLIP Loss: 1749.859\tRange Loss: 0.000\tTV Loss: 11.700\tTotal Loss: 1761.559\nCLIP Loss: 1754.744\tRange Loss: 0.000\tTV Loss: 12.758\tTotal Loss: 1767.502\nCLIP Loss: 1749.520\tRange Loss: 0.000\tTV Loss: 13.687\tTotal Loss: 1763.207\nCLIP Loss: 1753.120\tRange Loss: 0.000\tTV Loss: 14.740\tTotal Loss: 1767.859\nCLIP Loss: 1750.364\tRange Loss: 0.000\tTV Loss: 16.018\tTotal Loss: 1766.382\nCLIP Loss: 1749.779\tRange Loss: 0.000\tTV Loss: 17.185\tTotal Loss: 1766.964\nCLIP Loss: 1754.961\tRange Loss: 0.000\tTV Loss: 18.173\tTotal Loss: 1773.134\nCLIP Loss: 1752.682\tRange Loss: 0.000\tTV Loss: 19.356\tTotal Loss: 1772.038\nCLIP Loss: 1752.609\tRange Loss: 0.000\tTV Loss: 20.639\tTotal Loss: 1773.249\nCLIP Loss: 1758.885\tRange Loss: 0.000\tTV Loss: 21.859\tTotal Loss: 1780.744\n",
+         "likes": 0
+      },
+      {
+         "user": "Tod",
+         "counter": 6,
+         "strenght": "CLIP Loss: 1754.591\tRange Loss: 0.000\tTV Loss: 23.122\tTotal Loss: 1777.712\nCLIP Loss: 1756.964\tRange Loss: 0.000\tTV Loss: 24.513\tTotal Loss: 1781.477\nCLIP Loss: 1754.554\tRange Loss: 0.000\tTV Loss: 26.053\tTotal Loss: 1780.607\nCLIP Loss: 1759.551\tRange Loss: 0.000\tTV Loss: 27.187\tTotal Loss: 1786.738\nCLIP Loss: 1757.595\tRange Loss: 0.000\tTV Loss: 28.439\tTotal Loss: 1786.034\nCLIP Loss: 1756.188\tRange Loss: 0.000\tTV Loss: 29.827\tTotal Loss: 1786.015\nCLIP Loss: 1752.848\tRange Loss: 0.000\tTV Loss: 30.973\tTotal Loss: 1783.821\nCLIP Loss: 1754.457\tRange Loss: 0.000\tTV Loss: 32.321\tTotal Loss: 1786.777\nCLIP Loss: 1756.832\tRange Loss: 0.000\tTV Loss: 33.583\tTotal Loss: 1790.415\nCLIP Loss: 1754.607\tRange Loss: 0.000\tTV Loss: 34.591\tTotal Loss: 1789.198\nCLIP Loss: 1757.444\tRange Loss: 0.000\tTV Loss: 35.564\tTotal Loss: 1793.009\nCLIP Loss: 1753.520\tRange Loss: 0.000\tTV Loss: 36.472\tTotal Loss: 1789.992\nCLIP Loss: 1753.880\tRange Loss: 0.000\tTV Loss: 37.055\tTotal Loss: 1790.935\nCLIP Loss: 1751.543\tRange Loss: 0.000\tTV Loss: 37.719\tTotal Loss: 1789.262\nCLIP Loss: 1750.330\tRange Loss: 0.000\tTV Loss: 38.226\tTotal Loss: 1788.556\nCLIP Loss: 1754.106\tRange Loss: 0.000\tTV Loss: 38.848\tTotal Loss: 1792.954\nCLIP Loss: 1752.914\tRange Loss: 0.000\tTV Loss: 39.006\tTotal Loss: 1791.920\nCLIP Loss: 1755.334\tRange Loss: 0.000\tTV Loss: 39.109\tTotal Loss: 1794.443\nCLIP Loss: 1753.587\tRange Loss: 0.000\tTV Loss: 38.981\tTotal Loss: 1792.568\nCLIP Loss: 1750.767\tRange Loss: 0.000\tTV Loss: 38.694\tTotal Loss: 1789.461\nCLIP Loss: 1751.325\tRange Loss: 0.000\tTV Loss: 38.212\tTotal Loss: 1789.537\nCLIP Loss: 1751.975\tRange Loss: 0.000\tTV Loss: 37.672\tTotal Loss: 1789.647\nCLIP Loss: 1750.269\tRange Loss: 0.000\tTV Loss: 36.701\tTotal Loss: 1786.969\nCLIP Loss: 1746.925\tRange Loss: 0.000\tTV Loss: 35.775\tTotal Loss: 1782.700\nCLIP Loss: 1750.952\tRange Loss: 0.000\tTV Loss: 34.399\tTotal Loss: 1785.351\nCLIP Loss: 1751.075\tRange Loss: 0.000\tTV Loss: 32.980\tTotal Loss: 1784.055\nCLIP Loss: 1750.664\tRange Loss: 0.000\tTV Loss: 31.565\tTotal Loss: 1782.229\nCLIP Loss: 1747.791\tRange Loss: 0.000\tTV Loss: 29.661\tTotal Loss: 1777.452\nCLIP Loss: 1744.815\tRange Loss: 0.000\tTV Loss: 27.638\tTotal Loss: 1772.452\nCLIP Loss: 1749.866\tRange Loss: 0.000\tTV Loss: 25.416\tTotal Loss: 1775.283\nCLIP Loss: 1748.396\tRange Loss: 0.000\tTV Loss: 23.412\tTotal Loss: 1771.807\nCLIP Loss: 1747.973\tRange Loss: 0.000\tTV Loss: 21.000\tTotal Loss: 1768.972\nCLIP Loss: 1749.632\tRange Loss: 0.000\tTV Loss: 18.629\tTotal Loss: 1768.261\nCLIP Loss: 1749.366\tRange Loss: 0.000\tTV Loss: 16.535\tTotal Loss: 1765.902\nCLIP Loss: 1748.312\tRange Loss: 0.000\tTV Loss: 14.107\tTotal Loss: 1762.419\nCLIP Loss: 1748.909\tRange Loss: 0.000\tTV Loss: 11.765\tTotal Loss: 1760.674\nCLIP Loss: 1747.587\tRange Loss: 0.000\tTV Loss: 9.833\tTotal Loss: 1757.420\nCLIP Loss: 1745.098\tRange Loss: 0.000\tTV Loss: 7.821\tTotal Loss: 1752.919\nCLIP Loss: 1743.277\tRange Loss: 0.000\tTV Loss: 5.990\tTotal Loss: 1749.267\nCLIP Loss: 1749.349\tRange Loss: 0.000\tTV Loss: 4.505\tTotal Loss: 1753.854\nCLIP Loss: 1742.903\tRange Loss: 0.000\tTV Loss: 3.519\tTotal Loss: 1746.422\nCLIP Loss: 1733.395\tRange Loss: 0.000\tTV Loss: 2.681\tTotal Loss: 1736.076\n",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 7,
+         "strenght": "Using device cuda\n--wandb_project not specified. Skipping W&B integration.\nLoading clip model\tViT-B/32\ton device\tcuda.\nCLIP Loss: 865.569\tRange Loss: 0.001\tTV Loss: 11.196\tTotal Loss: 876.766\nCLIP Loss: 858.639\tRange Loss: 0.000\tTV Loss: 10.034\tTotal Loss: 868.672\nCLIP Loss: 880.508\tRange Loss: 0.001\tTV Loss: 12.017\tTotal Loss: 892.527\nCLIP Loss: 861.388\tRange Loss: 10.536\tTV Loss: 4.879\tTotal Loss: 876.802\nCLIP Loss: 853.003\tRange Loss: 3.809\tTV Loss: 2.721\tTotal Loss: 859.534\nCLIP Loss: 858.099\tRange Loss: 1.460\tTV Loss: 1.140\tTotal Loss: 860.700\nCLIP Loss: 856.132\tRange Loss: 1.420\tTV Loss: 1.235\tTotal Loss: 858.787\nCLIP Loss: 865.661\tRange Loss: 0.918\tTV Loss: 1.286\tTotal Loss: 867.864\nCLIP Loss: 864.521\tRange Loss: 0.608\tTV Loss: 1.290\tTotal Loss: 866.419\nCLIP Loss: 849.918\tRange Loss: 0.807\tTV Loss: 1.363\tTotal Loss: 852.089\nCLIP Loss: 855.037\tRange Loss: 0.602\tTV Loss: 1.427\tTotal Loss: 857.066\nCLIP Loss: 868.463\tRange Loss: 0.475\tTV Loss: 1.764\tTotal Loss: 870.702\nCLIP Loss: 872.763\tRange Loss: 0.366\tTV Loss: 2.026\tTotal Loss: 875.155\nCLIP Loss: 869.608\tRange Loss: 0.335\tTV Loss: 3.026\tTotal Loss: 872.969\nCLIP Loss: 871.376\tRange Loss: 0.281\tTV Loss: 4.927\tTotal Loss: 876.584\nCLIP Loss: 871.148\tRange Loss: 0.255\tTV Loss: 8.181\tTotal Loss: 879.583\nCLIP Loss: 871.675\tRange Loss: 0.225\tTV Loss: 13.272\tTotal Loss: 885.172\nCLIP Loss: 871.427\tRange Loss: 0.180\tTV Loss: 20.345\tTotal Loss: 891.952\nCLIP Loss: 866.635\tRange Loss: 0.153\tTV Loss: 28.227\tTotal Loss: 895.016\nCLIP Loss: 866.599\tRange Loss: 0.124\tTV Loss: 35.344\tTotal Loss: 902.066\nCLIP Loss: 864.143\tRange Loss: 0.110\tTV Loss: 38.456\tTotal Loss: 902.708\nCLIP Loss: 865.023\tRange Loss: 0.090\tTV Loss: 35.102\tTotal Loss: 900.215\nCLIP Loss: 866.214\tRange Loss: 0.074\tTV Loss: 24.613\tTotal Loss: 890.902\nCLIP Loss: 874.065\tRange Loss: 0.062\tTV Loss: 10.757\tTotal Loss: 884.884\nCLIP Loss: 854.025\tRange Loss: 0.061\tTV Loss: 1.209\tTotal Loss: 855.295\n",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 8,
+         "strenght": "Using device cuda\n--wandb_project not specified. Skipping W&B integration.\nLoading clip model\tViT-B/32\ton device\tcuda.\nCLIP Loss: 865.862\tRange Loss: 0.001\tTV Loss: 11.196\tTotal Loss: 877.059\nCLIP Loss: 858.951\tRange Loss: 0.000\tTV Loss: 10.164\tTotal Loss: 869.115\nCLIP Loss: 876.058\tRange Loss: 0.001\tTV Loss: 12.371\tTotal Loss: 888.430\nCLIP Loss: 869.818\tRange Loss: 2.159\tTV Loss: 1.694\tTotal Loss: 873.671\nCLIP Loss: 855.971\tRange Loss: 0.583\tTV Loss: 0.951\tTotal Loss: 857.505\nCLIP Loss: 851.043\tRange Loss: 0.416\tTV Loss: 0.642\tTotal Loss: 852.101\nCLIP Loss: 845.882\tRange Loss: 0.296\tTV Loss: 0.554\tTotal Loss: 846.732\nCLIP Loss: 848.640\tRange Loss: 0.139\tTV Loss: 0.510\tTotal Loss: 849.289\nCLIP Loss: 853.614\tRange Loss: 0.036\tTV Loss: 0.565\tTotal Loss: 854.215\nCLIP Loss: 831.821\tRange Loss: 0.056\tTV Loss: 0.692\tTotal Loss: 832.568\nCLIP Loss: 846.266\tRange Loss: 0.029\tTV Loss: 0.895\tTotal Loss: 847.189\nCLIP Loss: 842.112\tRange Loss: 0.033\tTV Loss: 0.995\tTotal Loss: 843.141\nCLIP Loss: 843.565\tRange Loss: 0.025\tTV Loss: 1.472\tTotal Loss: 845.062\nCLIP Loss: 827.677\tRange Loss: 0.019\tTV Loss: 2.469\tTotal Loss: 830.164\nCLIP Loss: 829.753\tRange Loss: 0.012\tTV Loss: 4.345\tTotal Loss: 834.110\nCLIP Loss: 829.225\tRange Loss: 0.009\tTV Loss: 7.713\tTotal Loss: 836.947\nCLIP Loss: 832.329\tRange Loss: 0.007\tTV Loss: 12.871\tTotal Loss: 845.207\nCLIP Loss: 828.843\tRange Loss: 0.005\tTV Loss: 19.924\tTotal Loss: 848.772\nCLIP Loss: 836.820\tRange Loss: 0.003\tTV Loss: 27.870\tTotal Loss: 864.693\nCLIP Loss: 834.062\tRange Loss: 0.002\tTV Loss: 34.949\tTotal Loss: 869.013\nCLIP Loss: 835.854\tRange Loss: 0.001\tTV Loss: 38.056\tTotal Loss: 873.911\nCLIP Loss: 833.948\tRange Loss: 0.001\tTV Loss: 34.688\tTotal Loss: 868.637\nCLIP Loss: 831.293\tRange Loss: 0.000\tTV Loss: 24.149\tTotal Loss: 855.442\nCLIP Loss: 829.774\tRange Loss: 0.000\tTV Loss: 10.174\tTotal Loss: 839.948\nCLIP Loss: 836.958\tRange Loss: 0.000\tTV Loss: 0.582\tTotal Loss: 837.540\n",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 8,
+         "strenght": "7",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 9,
+         "strenght": "Using device cuda\n--wandb_project not specified. Skipping W&B integration.\nLoading clip model\tViT-B/32\ton device\tcuda.\nCLIP Loss: 923.327\tRange Loss: 0.001\tTV Loss: 11.196\tTotal Loss: 934.524\nCLIP Loss: 907.133\tRange Loss: 0.000\tTV Loss: 12.880\tTotal Loss: 920.013\nCLIP Loss: 909.437\tRange Loss: 0.008\tTV Loss: 10.148\tTotal Loss: 919.593\nCLIP Loss: 897.958\tRange Loss: 0.036\tTV Loss: 0.790\tTotal Loss: 898.784\nCLIP Loss: 899.550\tRange Loss: 0.006\tTV Loss: 0.513\tTotal Loss: 900.069\nCLIP Loss: 888.531\tRange Loss: 0.005\tTV Loss: 1.101\tTotal Loss: 889.637\nCLIP Loss: 887.674\tRange Loss: 0.003\tTV Loss: 0.604\tTotal Loss: 888.281\nCLIP Loss: 853.753\tRange Loss: 0.006\tTV Loss: 0.916\tTotal Loss: 854.674\nCLIP Loss: 860.283\tRange Loss: 0.005\tTV Loss: 1.279\tTotal Loss: 861.567\nCLIP Loss: 850.758\tRange Loss: 0.003\tTV Loss: 1.403\tTotal Loss: 852.163\nCLIP Loss: 846.329\tRange Loss: 0.003\tTV Loss: 1.271\tTotal Loss: 847.603\nCLIP Loss: 835.395\tRange Loss: 0.005\tTV Loss: 1.434\tTotal Loss: 836.834\nCLIP Loss: 837.530\tRange Loss: 0.002\tTV Loss: 1.983\tTotal Loss: 839.515\nCLIP Loss: 825.737\tRange Loss: 0.003\tTV Loss: 3.152\tTotal Loss: 828.892\nCLIP Loss: 828.447\tRange Loss: 0.003\tTV Loss: 5.164\tTotal Loss: 833.614\nCLIP Loss: 828.129\tRange Loss: 0.002\tTV Loss: 8.602\tTotal Loss: 836.732\nCLIP Loss: 831.695\tRange Loss: 0.003\tTV Loss: 13.746\tTotal Loss: 845.443\nCLIP Loss: 836.713\tRange Loss: 0.002\tTV Loss: 20.696\tTotal Loss: 857.411\nCLIP Loss: 836.580\tRange Loss: 0.001\tTV Loss: 28.583\tTotal Loss: 865.164\nCLIP Loss: 837.397\tRange Loss: 0.000\tTV Loss: 35.654\tTotal Loss: 873.051\nCLIP Loss: 840.918\tRange Loss: 0.000\tTV Loss: 38.719\tTotal Loss: 879.637\nCLIP Loss: 841.671\tRange Loss: 0.000\tTV Loss: 35.333\tTotal Loss: 877.005\nCLIP Loss: 833.646\tRange Loss: 0.000\tTV Loss: 24.768\tTotal Loss: 858.414\nCLIP Loss: 820.869\tRange Loss: 0.000\tTV Loss: 10.685\tTotal Loss: 831.554\nCLIP Loss: 827.310\tRange Loss: 0.000\tTV Loss: 1.100\tTotal Loss: 828.410\n",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 10,
+         "strenght": "CMD STRING: cgd --device cuda --image_size 256 --prompts test:1|sty:0.0175 -respace 25\n",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 10,
+         "strenght": "Using device cuda\n--wandb_project not specified. Skipping W&B integration.\nLoading clip model\tViT-B/32\ton device\tcuda.\nCLIP Loss: 866.115\tRange Loss: 0.001\tTV Loss: 11.196\tTotal Loss: 877.312\nCLIP Loss: 859.252\tRange Loss: 0.000\tTV Loss: 10.164\tTotal Loss: 869.416\nCLIP Loss: 877.869\tRange Loss: 0.001\tTV Loss: 11.966\tTotal Loss: 889.836\nCLIP Loss: 868.968\tRange Loss: 2.734\tTV Loss: 2.142\tTotal Loss: 873.845\nCLIP Loss: 859.068\tRange Loss: 0.635\tTV Loss: 1.169\tTotal Loss: 860.872\nCLIP Loss: 845.746\tRange Loss: 0.188\tTV Loss: 0.685\tTotal Loss: 846.619\nCLIP Loss: 850.904\tRange Loss: 0.100\tTV Loss: 0.623\tTotal Loss: 851.627\nCLIP Loss: 852.296\tRange Loss: 0.078\tTV Loss: 0.717\tTotal Loss: 853.091\nCLIP Loss: 838.031\tRange Loss: 0.023\tTV Loss: 0.746\tTotal Loss: 838.800\nCLIP Loss: 834.710\tRange Loss: 0.038\tTV Loss: 0.614\tTotal Loss: 835.362\nCLIP Loss: 839.381\tRange Loss: 0.022\tTV Loss: 0.753\tTotal Loss: 840.157\nCLIP Loss: 837.543\tRange Loss: 0.023\tTV Loss: 0.891\tTotal Loss: 838.456\nCLIP Loss: 840.198\tRange Loss: 0.019\tTV Loss: 1.250\tTotal Loss: 841.468\nCLIP Loss: 852.744\tRange Loss: 0.015\tTV Loss: 2.311\tTotal Loss: 855.070\nCLIP Loss: 839.305\tRange Loss: 0.011\tTV Loss: 4.161\tTotal Loss: 843.477\nCLIP Loss: 838.420\tRange Loss: 0.007\tTV Loss: 7.565\tTotal Loss: 845.992\nCLIP Loss: 837.487\tRange Loss: 0.007\tTV Loss: 12.663\tTotal Loss: 850.157\nCLIP Loss: 833.102\tRange Loss: 0.004\tTV Loss: 19.733\tTotal Loss: 852.839\nCLIP Loss: 838.255\tRange Loss: 0.002\tTV Loss: 27.661\tTotal Loss: 865.918\nCLIP Loss: 837.518\tRange Loss: 0.002\tTV Loss: 34.782\tTotal Loss: 872.301\nCLIP Loss: 841.372\tRange Loss: 0.001\tTV Loss: 37.969\tTotal Loss: 879.342\nCLIP Loss: 840.784\tRange Loss: 0.001\tTV Loss: 34.670\tTotal Loss: 875.455\nCLIP Loss: 833.838\tRange Loss: 0.000\tTV Loss: 24.137\tTotal Loss: 857.975\nCLIP Loss: 832.964\tRange Loss: 0.000\tTV Loss: 10.144\tTotal Loss: 843.108\nCLIP Loss: 842.464\tRange Loss: 0.000\tTV Loss: 0.558\tTotal Loss: 843.022\n",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 11,
+         "strenght": "CMD STRING: cgd --device cuda --image_size 256 --prompts test:1|cigarette butt:0.0175 -respace 25\n",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 12,
+         "strenght": "7\n",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 12,
+         "strenght": "39#\n",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 12,
+         "strenght": "Using device cuda\n--wandb_project not specified. Skipping W&B integration.\nLoading clip model\tViT-B/32\ton device\tcuda.\nCLIP Loss: 897.344\tRange Loss: 0.001\tTV Loss: 11.196\tTotal Loss: 908.541\nCLIP Loss: 903.197\tRange Loss: 0.000\tTV Loss: 13.849\tTotal Loss: 917.047\nCLIP Loss: 891.890\tRange Loss: 0.016\tTV Loss: 6.325\tTotal Loss: 898.231\nCLIP Loss: 901.616\tRange Loss: 0.000\tTV Loss: 1.178\tTotal Loss: 902.794\nCLIP Loss: 895.266\tRange Loss: 0.000\tTV Loss: 0.405\tTotal Loss: 895.671\nCLIP Loss: 884.107\tRange Loss: 0.000\tTV Loss: 0.663\tTotal Loss: 884.771\nCLIP Loss: 876.168\tRange Loss: 0.000\tTV Loss: 0.545\tTotal Loss: 876.713\nCLIP Loss: 857.097\tRange Loss: 0.000\tTV Loss: 0.663\tTotal Loss: 857.760\nCLIP Loss: 864.725\tRange Loss: 0.000\tTV Loss: 0.775\tTotal Loss: 865.500\nCLIP Loss: 852.333\tRange Loss: 0.000\tTV Loss: 0.871\tTotal Loss: 853.204\nCLIP Loss: 852.130\tRange Loss: 0.000\tTV Loss: 1.056\tTotal Loss: 853.186\nCLIP Loss: 859.597\tRange Loss: 0.000\tTV Loss: 1.453\tTotal Loss: 861.049\nCLIP Loss: 859.178\tRange Loss: 0.000\tTV Loss: 1.881\tTotal Loss: 861.059\nCLIP Loss: 857.001\tRange Loss: 0.000\tTV Loss: 3.127\tTotal Loss: 860.129\nCLIP Loss: 865.305\tRange Loss: 0.000\tTV Loss: 5.174\tTotal Loss: 870.479\nCLIP Loss: 861.172\tRange Loss: 0.000\tTV Loss: 8.777\tTotal Loss: 869.949\nCLIP Loss: 858.079\tRange Loss: 0.000\tTV Loss: 13.944\tTotal Loss: 872.024\nCLIP Loss: 850.953\tRange Loss: 0.000\tTV Loss: 21.076\tTotal Loss: 872.029\nCLIP Loss: 851.569\tRange Loss: 0.000\tTV Loss: 29.018\tTotal Loss: 880.587\nCLIP Loss: 848.896\tRange Loss: 0.000\tTV Loss: 36.194\tTotal Loss: 885.090\nCLIP Loss: 847.984\tRange Loss: 0.000\tTV Loss: 39.271\tTotal Loss: 887.255\nCLIP Loss: 850.532\tRange Loss: 0.000\tTV Loss: 35.840\tTotal Loss: 886.372\nCLIP Loss: 852.194\tRange Loss: 0.000\tTV Loss: 25.146\tTotal Loss: 877.340\nCLIP Loss: 858.721\tRange Loss: 0.000\tTV Loss: 10.910\tTotal Loss: 869.631\nCLIP Loss: 847.657\tRange Loss: 0.000\tTV Loss: 1.108\tTotal Loss: 848.765\n",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 13,
+         "strenght": "59",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 13,
+         "strenght": "Using device cuda\n--wandb_project not specified. Skipping W&B integration.\nLoading clip model\tViT-B/32\ton device\tcuda.\nCLIP Loss: 1841.938\tRange Loss: 0.001\tTV Loss: 11.196\tTotal Loss: 1853.135\nCLIP Loss: 1842.350\tRange Loss: 0.000\tTV Loss: 3.516\tTotal Loss: 1845.865\nCLIP Loss: 1826.294\tRange Loss: 0.000\tTV Loss: 5.789\tTotal Loss: 1832.083\nCLIP Loss: 1824.005\tRange Loss: 0.001\tTV Loss: 8.915\tTotal Loss: 1832.921\nCLIP Loss: 1825.387\tRange Loss: 0.000\tTV Loss: 2.672\tTotal Loss: 1828.059\nCLIP Loss: 1827.373\tRange Loss: 0.000\tTV Loss: 3.719\tTotal Loss: 1831.092\nCLIP Loss: 1819.687\tRange Loss: 0.000\tTV Loss: 3.782\tTotal Loss: 1823.469\nCLIP Loss: 1818.655\tRange Loss: 0.000\tTV Loss: 2.342\tTotal Loss: 1820.997\nCLIP Loss: 1808.193\tRange Loss: 0.000\tTV Loss: 4.132\tTotal Loss: 1812.325\nCLIP Loss: 1810.475\tRange Loss: 0.000\tTV Loss: 1.513\tTotal Loss: 1811.988\nCLIP Loss: 1835.101\tRange Loss: 0.000\tTV Loss: 2.210\tTotal Loss: 1837.310\nCLIP Loss: 1809.391\tRange Loss: 0.000\tTV Loss: 1.594\tTotal Loss: 1810.986\nCLIP Loss: 1814.806\tRange Loss: 0.000\tTV Loss: 1.073\tTotal Loss: 1815.879\nCLIP Loss: 1816.705\tRange Loss: 0.000\tTV Loss: 1.620\tTotal Loss: 1818.324\nCLIP Loss: 1814.927\tRange Loss: 0.000\tTV Loss: 1.252\tTotal Loss: 1816.179\nCLIP Loss: 1809.088\tRange Loss: 0.000\tTV Loss: 1.557\tTotal Loss: 1810.645\nCLIP Loss: 1832.198\tRange Loss: 0.000\tTV Loss: 1.035\tTotal Loss: 1833.233\nCLIP Loss: 1817.617\tRange Loss: 0.000\tTV Loss: 1.049\tTotal Loss: 1818.666\nCLIP Loss: 1818.456\tRange Loss: 0.000\tTV Loss: 1.312\tTotal Loss: 1819.768\nCLIP Loss: 1804.530\tRange Loss: 0.000\tTV Loss: 1.104\tTotal Loss: 1805.634\nCLIP Loss: 1795.710\tRange Loss: 0.000\tTV Loss: 0.743\tTotal Loss: 1796.452\nCLIP Loss: 1783.704\tRange Loss: 0.001\tTV Loss: 1.915\tTotal Loss: 1785.620\nCLIP Loss: 1793.396\tRange Loss: 0.000\tTV Loss: 0.840\tTotal Loss: 1794.235\nCLIP Loss: 1782.937\tRange Loss: 0.000\tTV Loss: 1.065\tTotal Loss: 1784.002\nCLIP Loss: 1775.350\tRange Loss: 0.000\tTV Loss: 1.076\tTotal Loss: 1776.425\nCLIP Loss: 1792.858\tRange Loss: 0.000\tTV Loss: 0.960\tTotal Loss: 1793.818\nCLIP Loss: 1790.643\tRange Loss: 0.002\tTV Loss: 1.491\tTotal Loss: 1792.136\nCLIP Loss: 1790.725\tRange Loss: 0.000\tTV Loss: 1.640\tTotal Loss: 1792.365\nCLIP Loss: 1788.832\tRange Loss: 0.001\tTV Loss: 1.232\tTotal Loss: 1790.065\nCLIP Loss: 1779.495\tRange Loss: 0.002\tTV Loss: 1.048\tTotal Loss: 1780.546\nCLIP Loss: 1772.306\tRange Loss: 0.003\tTV Loss: 0.765\tTotal Loss: 1773.073\nCLIP Loss: 1770.643\tRange Loss: 0.000\tTV Loss: 0.782\tTotal Loss: 1771.425\nCLIP Loss: 1804.300\tRange Loss: 0.001\tTV Loss: 0.570\tTotal Loss: 1804.870\nCLIP Loss: 1778.704\tRange Loss: 0.000\tTV Loss: 0.785\tTotal Loss: 1779.490\nCLIP Loss: 1787.276\tRange Loss: 0.001\tTV Loss: 1.631\tTotal Loss: 1788.907\nCLIP Loss: 1788.140\tRange Loss: 0.002\tTV Loss: 1.571\tTotal Loss: 1789.713\nCLIP Loss: 1771.321\tRange Loss: 0.000\tTV Loss: 0.669\tTotal Loss: 1771.990\nCLIP Loss: 1770.318\tRange Loss: 0.000\tTV Loss: 1.193\tTotal Loss: 1771.511\nCLIP Loss: 1768.163\tRange Loss: 0.000\tTV Loss: 1.456\tTotal Loss: 1769.618\nCLIP Loss: 1757.998\tRange Loss: 0.000\tTV Loss: 1.121\tTotal Loss: 1759.119\nCLIP Loss: 1779.300\tRange Loss: 0.000\tTV Loss: 1.151\tTotal Loss: 1780.451\nCLIP Loss: 1780.516\tRange Loss: 0.000\tTV Loss: 1.351\tTotal Loss: 1781.867\nCLIP Loss: 1774.899\tRange Loss: 0.000\tTV Loss: 0.738\tTotal Loss: 1775.637\nCLIP Loss: 1759.185\tRange Loss: 0.000\tTV Loss: 1.091\tTotal Loss: 1760.276\nCLIP Loss: 1792.095\tRange Loss: 0.000\tTV Loss: 1.699\tTotal Loss: 1793.794\nCLIP Loss: 1785.654\tRange Loss: 0.000\tTV Loss: 0.918\tTotal Loss: 1786.572\nCLIP Loss: 1800.221\tRange Loss: 0.000\tTV Loss: 0.819\tTotal Loss: 1801.040\nCLIP Loss: 1766.030\tRange Loss: 0.000\tTV Loss: 0.684\tTotal Loss: 1766.714\nCLIP Loss: 1762.154\tRange Loss: 0.000\tTV Loss: 0.843\tTotal Loss: 1762.997\nCLIP Loss: 1771.907\tRange Loss: 0.000\tTV Loss: 0.652\tTotal Loss: 1772.559\nCLIP Loss: 1749.340\tRange Loss: 0.000\tTV Loss: 1.370\tTotal Loss: 1750.710\nCLIP Loss: 1749.578\tRange Loss: 0.000\tTV Loss: 1.880\tTotal Loss: 1751.458\nCLIP Loss: 1756.439\tRange Loss: 0.000\tTV Loss: 2.053\tTotal Loss: 1758.491\nCLIP Loss: 1750.268\tRange Loss: 0.000\tTV Loss: 2.929\tTotal Loss: 1753.197\nCLIP Loss: 1749.608\tRange Loss: 0.000\tTV Loss: 3.993\tTotal Loss: 1753.601\nCLIP Loss: 1766.633\tRange Loss: 0.000\tTV Loss: 2.965\tTotal Loss: 1769.598\nCLIP Loss: 1742.377\tRange Loss: 0.000\tTV Loss: 4.033\tTotal Loss: 1746.411\nCLIP Loss: 1758.120\tRange Loss: 0.000\tTV Loss: 3.542\tTotal Loss: 1761.662\nCLIP Loss: 1738.841\tRange Loss: 0.000\tTV Loss: 3.374\tTotal Loss: 1742.215\nCLIP Loss: 1748.090\tRange Loss: 0.000\tTV Loss: 4.131\tTotal Loss: 1752.221\nCLIP Loss: 1744.796\tRange Loss: 0.000\tTV Loss: 4.485\tTotal Loss: 1749.281\nCLIP Loss: 1742.042\tRange Loss: 0.001\tTV Loss: 3.918\tTotal Loss: 1745.961\nCLIP Loss: 1741.069\tRange Loss: 0.000\tTV Loss: 3.900\tTotal Loss: 1744.970\nCLIP Loss: 1741.680\tRange Loss: 0.001\tTV Loss: 3.734\tTotal Loss: 1745.415\nCLIP Loss: 1737.212\tRange Loss: 0.004\tTV Loss: 4.014\tTotal Loss: 1741.230\nCLIP Loss: 1730.738\tRange Loss: 0.000\tTV Loss: 4.604\tTotal Loss: 1735.342\nCLIP Loss: 1734.736\tRange Loss: 0.001\tTV Loss: 4.514\tTotal Loss: 1739.251\nCLIP Loss: 1731.378\tRange Loss: 0.000\tTV Loss: 4.446\tTotal Loss: 1735.825\nCLIP Loss: 1734.895\tRange Loss: 0.000\tTV Loss: 4.423\tTotal Loss: 1739.318\nCLIP Loss: 1730.924\tRange Loss: 0.002\tTV Loss: 4.370\tTotal Loss: 1735.296\nCLIP Loss: 1738.539\tRange Loss: 0.001\tTV Loss: 4.767\tTotal Loss: 1743.308\nCLIP Loss: 1731.935\tRange Loss: 0.000\tTV Loss: 5.162\tTotal Loss: 1737.097\nCLIP Loss: 1730.723\tRange Loss: 0.002\tTV Loss: 4.893\tTotal Loss: 1735.618\nCLIP Loss: 1736.977\tRange Loss: 0.001\tTV Loss: 4.906\tTotal Loss: 1741.884\nCLIP Loss: 1730.335\tRange Loss: 0.001\tTV Loss: 5.149\tTotal Loss: 1735.486\nCLIP Loss: 1735.839\tRange Loss: 0.001\tTV Loss: 5.247\tTotal Loss: 1741.087\nCLIP Loss: 1735.720\tRange Loss: 0.000\tTV Loss: 5.348\tTotal Loss: 1741.069\nCLIP Loss: 1735.534\tRange Loss: 0.002\tTV Loss: 5.483\tTotal Loss: 1741.019\nCLIP Loss: 1735.042\tRange Loss: 0.001\tTV Loss: 5.329\tTotal Loss: 1740.371\nCLIP Loss: 1736.370\tRange Loss: 0.001\tTV Loss: 5.476\tTotal Loss: 1741.847\nCLIP Loss: 1739.057\tRange Loss: 0.001\tTV Loss: 5.755\tTotal Loss: 1744.813\nCLIP Loss: 1733.564\tRange Loss: 0.001\tTV Loss: 6.229\tTotal Loss: 1739.793\nCLIP Loss: 1736.320\tRange Loss: 0.001\tTV Loss: 6.194\tTotal Loss: 1742.514\nCLIP Loss: 1734.349\tRange Loss: 0.001\tTV Loss: 6.774\tTotal Loss: 1741.125\nCLIP Loss: 1740.241\tRange Loss: 0.000\tTV Loss: 7.150\tTotal Loss: 1747.391\nCLIP Loss: 1732.072\tRange Loss: 0.000\tTV Loss: 7.052\tTotal Loss: 1739.124\nCLIP Loss: 1736.681\tRange Loss: 0.001\tTV Loss: 7.427\tTotal Loss: 1744.109\nCLIP Loss: 1735.323\tRange Loss: 0.000\tTV Loss: 7.579\tTotal Loss: 1742.903\nCLIP Loss: 1732.251\tRange Loss: 0.001\tTV Loss: 8.181\tTotal Loss: 1740.434\nCLIP Loss: 1734.076\tRange Loss: 0.001\tTV Loss: 8.486\tTotal Loss: 1742.563\nCLIP Loss: 1738.930\tRange Loss: 0.000\tTV Loss: 9.021\tTotal Loss: 1747.951\nCLIP Loss: 1736.759\tRange Loss: 0.000\tTV Loss: 9.521\tTotal Loss: 1746.280\nCLIP Loss: 1731.803\tRange Loss: 0.000\tTV Loss: 10.133\tTotal Loss: 1741.936\nCLIP Loss: 1730.359\tRange Loss: 0.000\tTV Loss: 10.716\tTotal Loss: 1741.075\nCLIP Loss: 1731.189\tRange Loss: 0.000\tTV Loss: 11.157\tTotal Loss: 1742.346\nCLIP Loss: 1733.400\tRange Loss: 0.000\tTV Loss: 12.169\tTotal Loss: 1745.568\nCLIP Loss: 1732.922\tRange Loss: 0.000\tTV Loss: 13.113\tTotal Loss: 1746.034\nCLIP Loss: 1726.563\tRange Loss: 0.000\tTV Loss: 13.798\tTotal Loss: 1740.361\nCLIP Loss: 1728.116\tRange Loss: 0.000\tTV Loss: 14.824\tTotal Loss: 1742.940\nCLIP Loss: 1728.114\tRange Loss: 0.000\tTV Loss: 15.797\tTotal Loss: 1743.911\nCLIP Loss: 1726.459\tRange Loss: 0.000\tTV Loss: 16.720\tTotal Loss: 1743.179\nCLIP Loss: 1729.829\tRange Loss: 0.000\tTV Loss: 17.798\tTotal Loss: 1747.627\nCLIP Loss: 1727.506\tRange Loss: 0.000\tTV Loss: 18.987\tTotal Loss: 1746.493\nCLIP Loss: 1727.085\tRange Loss: 0.000\tTV Loss: 20.262\tTotal Loss: 1747.347\nCLIP Loss: 1729.794\tRange Loss: 0.000\tTV Loss: 21.235\tTotal Loss: 1751.029\nCLIP Loss: 1730.707\tRange Loss: 0.000\tTV Loss: 22.416\tTotal Loss: 1753.124\nCLIP Loss: 1727.807\tRange Loss: 0.000\tTV Loss: 23.540\tTotal Loss: 1751.347\nCLIP Loss: 1726.937\tRange Loss: 0.000\tTV Loss: 24.778\tTotal Loss: 1751.714\n",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 13,
+         "strenght": "CLIP Loss: 1725.301\tRange Loss: 0.000\tTV Loss: 26.080\tTotal Loss: 1751.381\nCLIP Loss: 1729.380\tRange Loss: 0.000\tTV Loss: 27.366\tTotal Loss: 1756.746\nCLIP Loss: 1727.068\tRange Loss: 0.000\tTV Loss: 28.861\tTotal Loss: 1755.929\nCLIP Loss: 1737.528\tRange Loss: 0.000\tTV Loss: 30.004\tTotal Loss: 1767.532\nCLIP Loss: 1731.068\tRange Loss: 0.000\tTV Loss: 31.311\tTotal Loss: 1762.380\nCLIP Loss: 1733.635\tRange Loss: 0.000\tTV Loss: 32.646\tTotal Loss: 1766.282\nCLIP Loss: 1732.467\tRange Loss: 0.000\tTV Loss: 33.747\tTotal Loss: 1766.215\nCLIP Loss: 1732.230\tRange Loss: 0.000\tTV Loss: 35.030\tTotal Loss: 1767.260\nCLIP Loss: 1731.083\tRange Loss: 0.000\tTV Loss: 36.196\tTotal Loss: 1767.279\nCLIP Loss: 1730.451\tRange Loss: 0.000\tTV Loss: 37.149\tTotal Loss: 1767.600\nCLIP Loss: 1731.688\tRange Loss: 0.000\tTV Loss: 38.049\tTotal Loss: 1769.738\nCLIP Loss: 1732.997\tRange Loss: 0.000\tTV Loss: 38.898\tTotal Loss: 1771.895\nCLIP Loss: 1731.636\tRange Loss: 0.000\tTV Loss: 39.501\tTotal Loss: 1771.138\nCLIP Loss: 1732.260\tRange Loss: 0.000\tTV Loss: 40.185\tTotal Loss: 1772.444\nCLIP Loss: 1728.244\tRange Loss: 0.000\tTV Loss: 40.563\tTotal Loss: 1768.808\nCLIP Loss: 1729.170\tRange Loss: 0.000\tTV Loss: 41.105\tTotal Loss: 1770.276\nCLIP Loss: 1731.429\tRange Loss: 0.000\tTV Loss: 41.244\tTotal Loss: 1772.673\nCLIP Loss: 1730.841\tRange Loss: 0.000\tTV Loss: 41.410\tTotal Loss: 1772.251\nCLIP Loss: 1730.000\tRange Loss: 0.000\tTV Loss: 41.255\tTotal Loss: 1771.255\nCLIP Loss: 1728.279\tRange Loss: 0.000\tTV Loss: 40.988\tTotal Loss: 1769.267\nCLIP Loss: 1726.279\tRange Loss: 0.000\tTV Loss: 40.514\tTotal Loss: 1766.794\nCLIP Loss: 1727.185\tRange Loss: 0.000\tTV Loss: 39.969\tTotal Loss: 1767.154\nCLIP Loss: 1721.466\tRange Loss: 0.000\tTV Loss: 39.023\tTotal Loss: 1760.490\nCLIP Loss: 1721.310\tRange Loss: 0.000\tTV Loss: 38.090\tTotal Loss: 1759.399\nCLIP Loss: 1724.177\tRange Loss: 0.000\tTV Loss: 36.699\tTotal Loss: 1760.876\nCLIP Loss: 1727.056\tRange Loss: 0.000\tTV Loss: 35.299\tTotal Loss: 1762.356\nCLIP Loss: 1726.910\tRange Loss: 0.000\tTV Loss: 33.850\tTotal Loss: 1760.760\nCLIP Loss: 1725.897\tRange Loss: 0.000\tTV Loss: 31.927\tTotal Loss: 1757.824\nCLIP Loss: 1725.463\tRange Loss: 0.000\tTV Loss: 29.887\tTotal Loss: 1755.350\nCLIP Loss: 1724.962\tRange Loss: 0.000\tTV Loss: 27.689\tTotal Loss: 1752.651\nCLIP Loss: 1733.105\tRange Loss: 0.000\tTV Loss: 25.695\tTotal Loss: 1758.800\nCLIP Loss: 1735.515\tRange Loss: 0.000\tTV Loss: 23.274\tTotal Loss: 1758.789\nCLIP Loss: 1727.055\tRange Loss: 0.000\tTV Loss: 20.900\tTotal Loss: 1747.954\nCLIP Loss: 1727.276\tRange Loss: 0.000\tTV Loss: 18.827\tTotal Loss: 1746.102\nCLIP Loss: 1730.650\tRange Loss: 0.000\tTV Loss: 16.409\tTotal Loss: 1747.059\nCLIP Loss: 1731.119\tRange Loss: 0.000\tTV Loss: 14.094\tTotal Loss: 1745.213\nCLIP Loss: 1730.896\tRange Loss: 0.000\tTV Loss: 12.175\tTotal Loss: 1743.071\nCLIP Loss: 1732.170\tRange Loss: 0.000\tTV Loss: 10.162\tTotal Loss: 1742.331\nCLIP Loss: 1738.810\tRange Loss: 0.000\tTV Loss: 8.326\tTotal Loss: 1747.136\nCLIP Loss: 1741.130\tRange Loss: 0.000\tTV Loss: 6.849\tTotal Loss: 1747.979\nCLIP Loss: 1744.899\tRange Loss: 0.000\tTV Loss: 5.886\tTotal Loss: 1750.785\nCLIP Loss: 1753.089\tRange Loss: 0.000\tTV Loss: 5.149\tTotal Loss: 1758.238\n",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 14,
+         "strenght": "59",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 14,
+         "strenght": "Using device cuda\n--wandb_project not specified. Skipping W&B integration.\nLoading clip model\tViT-B/32\ton device\tcuda.\nCLIP Loss: 1774.679\tRange Loss: 0.001\tTV Loss: 11.196\tTotal Loss: 1785.876\nCLIP Loss: 1777.670\tRange Loss: 0.000\tTV Loss: 3.550\tTotal Loss: 1781.220\nCLIP Loss: 1761.515\tRange Loss: 0.000\tTV Loss: 6.815\tTotal Loss: 1768.330\nCLIP Loss: 1755.981\tRange Loss: 0.000\tTV Loss: 3.512\tTotal Loss: 1759.493\nCLIP Loss: 1779.998\tRange Loss: 0.000\tTV Loss: 5.555\tTotal Loss: 1785.553\nCLIP Loss: 1747.702\tRange Loss: 0.000\tTV Loss: 4.137\tTotal Loss: 1751.839\nCLIP Loss: 1736.131\tRange Loss: 0.000\tTV Loss: 3.575\tTotal Loss: 1739.706\nCLIP Loss: 1753.874\tRange Loss: 0.000\tTV Loss: 3.169\tTotal Loss: 1757.043\nCLIP Loss: 1739.140\tRange Loss: 0.000\tTV Loss: 2.477\tTotal Loss: 1741.617\nCLIP Loss: 1749.026\tRange Loss: 0.000\tTV Loss: 4.683\tTotal Loss: 1753.709\nCLIP Loss: 1760.471\tRange Loss: 0.000\tTV Loss: 9.209\tTotal Loss: 1769.680\nCLIP Loss: 1744.747\tRange Loss: 0.000\tTV Loss: 1.681\tTotal Loss: 1746.429\nCLIP Loss: 1736.505\tRange Loss: 0.000\tTV Loss: 2.704\tTotal Loss: 1739.209\nCLIP Loss: 1733.633\tRange Loss: 0.000\tTV Loss: 2.514\tTotal Loss: 1736.146\nCLIP Loss: 1718.760\tRange Loss: 0.000\tTV Loss: 2.709\tTotal Loss: 1721.468\nCLIP Loss: 1724.749\tRange Loss: 0.000\tTV Loss: 1.518\tTotal Loss: 1726.268\nCLIP Loss: 1737.967\tRange Loss: 0.000\tTV Loss: 1.168\tTotal Loss: 1739.135\nCLIP Loss: 1723.644\tRange Loss: 0.000\tTV Loss: 2.003\tTotal Loss: 1725.647\nCLIP Loss: 1725.881\tRange Loss: 0.000\tTV Loss: 1.328\tTotal Loss: 1727.209\nCLIP Loss: 1705.916\tRange Loss: 0.000\tTV Loss: 2.257\tTotal Loss: 1708.172\nCLIP Loss: 1727.985\tRange Loss: 0.000\tTV Loss: 0.901\tTotal Loss: 1728.886\nCLIP Loss: 1709.234\tRange Loss: 0.000\tTV Loss: 1.560\tTotal Loss: 1710.794\nCLIP Loss: 1740.488\tRange Loss: 0.000\tTV Loss: 1.266\tTotal Loss: 1741.753\nCLIP Loss: 1747.330\tRange Loss: 0.000\tTV Loss: 1.798\tTotal Loss: 1749.128\nCLIP Loss: 1755.947\tRange Loss: 0.000\tTV Loss: 1.393\tTotal Loss: 1757.340\nCLIP Loss: 1756.410\tRange Loss: 0.000\tTV Loss: 1.318\tTotal Loss: 1757.728\nCLIP Loss: 1725.811\tRange Loss: 0.000\tTV Loss: 1.209\tTotal Loss: 1727.021\nCLIP Loss: 1721.458\tRange Loss: 0.000\tTV Loss: 1.108\tTotal Loss: 1722.566\nCLIP Loss: 1717.345\tRange Loss: 0.000\tTV Loss: 1.186\tTotal Loss: 1718.531\nCLIP Loss: 1719.388\tRange Loss: 0.000\tTV Loss: 0.823\tTotal Loss: 1720.211\nCLIP Loss: 1727.699\tRange Loss: 0.000\tTV Loss: 0.763\tTotal Loss: 1728.463\nCLIP Loss: 1716.427\tRange Loss: 0.000\tTV Loss: 0.654\tTotal Loss: 1717.082\nCLIP Loss: 1705.496\tRange Loss: 0.000\tTV Loss: 0.900\tTotal Loss: 1706.396\nCLIP Loss: 1716.171\tRange Loss: 0.000\tTV Loss: 0.760\tTotal Loss: 1716.931\nCLIP Loss: 1713.944\tRange Loss: 0.000\tTV Loss: 0.746\tTotal Loss: 1714.691\nCLIP Loss: 1712.307\tRange Loss: 0.000\tTV Loss: 0.595\tTotal Loss: 1712.902\nCLIP Loss: 1724.955\tRange Loss: 0.000\tTV Loss: 0.544\tTotal Loss: 1725.500\nCLIP Loss: 1742.515\tRange Loss: 0.000\tTV Loss: 0.739\tTotal Loss: 1743.255\nCLIP Loss: 1725.658\tRange Loss: 0.000\tTV Loss: 0.731\tTotal Loss: 1726.388\nCLIP Loss: 1736.929\tRange Loss: 0.000\tTV Loss: 0.643\tTotal Loss: 1737.573\nCLIP Loss: 1764.143\tRange Loss: 0.001\tTV Loss: 0.744\tTotal Loss: 1764.888\nCLIP Loss: 1736.954\tRange Loss: 0.003\tTV Loss: 0.827\tTotal Loss: 1737.784\nCLIP Loss: 1728.264\tRange Loss: 0.003\tTV Loss: 0.825\tTotal Loss: 1729.092\nCLIP Loss: 1753.034\tRange Loss: 0.002\tTV Loss: 0.760\tTotal Loss: 1753.796\nCLIP Loss: 1713.832\tRange Loss: 0.003\tTV Loss: 0.671\tTotal Loss: 1714.506\nCLIP Loss: 1733.088\tRange Loss: 0.002\tTV Loss: 0.757\tTotal Loss: 1733.847\nCLIP Loss: 1735.856\tRange Loss: 0.002\tTV Loss: 0.724\tTotal Loss: 1736.583\nCLIP Loss: 1725.386\tRange Loss: 0.005\tTV Loss: 0.755\tTotal Loss: 1726.146\nCLIP Loss: 1728.482\tRange Loss: 0.003\tTV Loss: 0.699\tTotal Loss: 1729.183\nCLIP Loss: 1714.549\tRange Loss: 0.004\tTV Loss: 0.586\tTotal Loss: 1715.140\nCLIP Loss: 1718.314\tRange Loss: 0.002\tTV Loss: 0.542\tTotal Loss: 1718.857\nCLIP Loss: 1719.225\tRange Loss: 0.004\tTV Loss: 0.592\tTotal Loss: 1719.821\nCLIP Loss: 1715.394\tRange Loss: 0.001\tTV Loss: 0.503\tTotal Loss: 1715.898\nCLIP Loss: 1711.658\tRange Loss: 0.002\tTV Loss: 0.544\tTotal Loss: 1712.204\nCLIP Loss: 1703.280\tRange Loss: 0.001\tTV Loss: 0.607\tTotal Loss: 1703.887\nCLIP Loss: 1707.536\tRange Loss: 0.001\tTV Loss: 0.647\tTotal Loss: 1708.183\nCLIP Loss: 1699.199\tRange Loss: 0.001\tTV Loss: 0.607\tTotal Loss: 1699.807\nCLIP Loss: 1694.291\tRange Loss: 0.002\tTV Loss: 0.581\tTotal Loss: 1694.874\nCLIP Loss: 1700.748\tRange Loss: 0.001\tTV Loss: 0.579\tTotal Loss: 1701.328\nCLIP Loss: 1697.228\tRange Loss: 0.004\tTV Loss: 0.631\tTotal Loss: 1697.863\nCLIP Loss: 1696.037\tRange Loss: 0.001\tTV Loss: 0.653\tTotal Loss: 1696.691\nCLIP Loss: 1696.213\tRange Loss: 0.002\tTV Loss: 0.728\tTotal Loss: 1696.942\nCLIP Loss: 1690.048\tRange Loss: 0.001\tTV Loss: 0.690\tTotal Loss: 1690.739\nCLIP Loss: 1684.847\tRange Loss: 0.001\tTV Loss: 0.766\tTotal Loss: 1685.614\nCLIP Loss: 1698.673\tRange Loss: 0.001\tTV Loss: 0.717\tTotal Loss: 1699.390\nCLIP Loss: 1694.262\tRange Loss: 0.000\tTV Loss: 0.823\tTotal Loss: 1695.085\nCLIP Loss: 1686.665\tRange Loss: 0.001\tTV Loss: 0.860\tTotal Loss: 1687.526\nCLIP Loss: 1700.171\tRange Loss: 0.001\tTV Loss: 0.893\tTotal Loss: 1701.065\nCLIP Loss: 1691.567\tRange Loss: 0.001\tTV Loss: 0.972\tTotal Loss: 1692.540\nCLIP Loss: 1685.711\tRange Loss: 0.001\tTV Loss: 0.922\tTotal Loss: 1686.634\nCLIP Loss: 1682.271\tRange Loss: 0.001\tTV Loss: 1.027\tTotal Loss: 1683.300\nCLIP Loss: 1686.257\tRange Loss: 0.000\tTV Loss: 1.064\tTotal Loss: 1687.321\nCLIP Loss: 1685.224\tRange Loss: 0.001\tTV Loss: 1.166\tTotal Loss: 1686.391\nCLIP Loss: 1690.608\tRange Loss: 0.001\tTV Loss: 1.195\tTotal Loss: 1691.804\nCLIP Loss: 1683.407\tRange Loss: 0.001\tTV Loss: 1.279\tTotal Loss: 1684.688\nCLIP Loss: 1679.716\tRange Loss: 0.001\tTV Loss: 1.504\tTotal Loss: 1681.221\nCLIP Loss: 1684.272\tRange Loss: 0.001\tTV Loss: 1.763\tTotal Loss: 1686.036\nCLIP Loss: 1688.226\tRange Loss: 0.001\tTV Loss: 1.794\tTotal Loss: 1690.021\nCLIP Loss: 1681.165\tRange Loss: 0.002\tTV Loss: 1.935\tTotal Loss: 1683.102\nCLIP Loss: 1681.838\tRange Loss: 0.001\tTV Loss: 2.092\tTotal Loss: 1683.932\nCLIP Loss: 1679.698\tRange Loss: 0.001\tTV Loss: 2.264\tTotal Loss: 1681.964\nCLIP Loss: 1682.887\tRange Loss: 0.001\tTV Loss: 2.490\tTotal Loss: 1685.378\nCLIP Loss: 1682.773\tRange Loss: 0.001\tTV Loss: 2.752\tTotal Loss: 1685.526\nCLIP Loss: 1681.036\tRange Loss: 0.002\tTV Loss: 3.002\tTotal Loss: 1684.041\nCLIP Loss: 1680.042\tRange Loss: 0.001\tTV Loss: 3.413\tTotal Loss: 1683.456\nCLIP Loss: 1675.814\tRange Loss: 0.001\tTV Loss: 3.695\tTotal Loss: 1679.510\nCLIP Loss: 1683.277\tRange Loss: 0.001\tTV Loss: 4.003\tTotal Loss: 1687.281\nCLIP Loss: 1676.334\tRange Loss: 0.001\tTV Loss: 4.240\tTotal Loss: 1680.575\nCLIP Loss: 1682.109\tRange Loss: 0.001\tTV Loss: 4.696\tTotal Loss: 1686.806\nCLIP Loss: 1682.193\tRange Loss: 0.001\tTV Loss: 5.145\tTotal Loss: 1687.339\nCLIP Loss: 1684.383\tRange Loss: 0.001\tTV Loss: 5.604\tTotal Loss: 1689.988\nCLIP Loss: 1683.806\tRange Loss: 0.001\tTV Loss: 6.279\tTotal Loss: 1690.086\nCLIP Loss: 1683.171\tRange Loss: 0.001\tTV Loss: 6.834\tTotal Loss: 1690.006\nCLIP Loss: 1681.971\tRange Loss: 0.001\tTV Loss: 7.576\tTotal Loss: 1689.547\nCLIP Loss: 1681.966\tRange Loss: 0.001\tTV Loss: 7.997\tTotal Loss: 1689.964\nCLIP Loss: 1682.939\tRange Loss: 0.001\tTV Loss: 9.013\tTotal Loss: 1691.953\nCLIP Loss: 1688.329\tRange Loss: 0.000\tTV Loss: 9.960\tTotal Loss: 1698.289\nCLIP Loss: 1684.461\tRange Loss: 0.000\tTV Loss: 10.732\tTotal Loss: 1695.193\nCLIP Loss: 1689.451\tRange Loss: 0.001\tTV Loss: 11.636\tTotal Loss: 1701.088\nCLIP Loss: 1685.413\tRange Loss: 0.000\tTV Loss: 12.748\tTotal Loss: 1698.162\nCLIP Loss: 1684.336\tRange Loss: 0.001\tTV Loss: 13.642\tTotal Loss: 1697.979\nCLIP Loss: 1687.755\tRange Loss: 0.001\tTV Loss: 14.649\tTotal Loss: 1702.404\nCLIP Loss: 1683.637\tRange Loss: 0.000\tTV Loss: 15.888\tTotal Loss: 1699.525\nCLIP Loss: 1686.780\tRange Loss: 0.000\tTV Loss: 17.001\tTotal Loss: 1703.782\nCLIP Loss: 1694.765\tRange Loss: 0.000\tTV Loss: 17.926\tTotal Loss: 1712.692\nCLIP Loss: 1689.721\tRange Loss: 0.000\tTV Loss: 19.059\tTotal Loss: 1708.780\nCLIP Loss: 1689.241\tRange Loss: 0.000\tTV Loss: 20.285\tTotal Loss: 1709.527\nCLIP Loss: 1692.412\tRange Loss: 0.000\tTV Loss: 21.472\tTotal Loss: 1713.884\n",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 14,
+         "strenght": "CLIP Loss: 1694.810\tRange Loss: 0.000\tTV Loss: 22.744\tTotal Loss: 1717.554\nCLIP Loss: 1695.626\tRange Loss: 0.000\tTV Loss: 24.013\tTotal Loss: 1719.639\nCLIP Loss: 1695.171\tRange Loss: 0.000\tTV Loss: 25.455\tTotal Loss: 1720.626\nCLIP Loss: 1699.003\tRange Loss: 0.000\tTV Loss: 26.522\tTotal Loss: 1725.524\nCLIP Loss: 1695.954\tRange Loss: 0.000\tTV Loss: 27.837\tTotal Loss: 1723.792\nCLIP Loss: 1695.682\tRange Loss: 0.000\tTV Loss: 29.124\tTotal Loss: 1724.807\nCLIP Loss: 1693.573\tRange Loss: 0.000\tTV Loss: 30.247\tTotal Loss: 1723.821\nCLIP Loss: 1694.308\tRange Loss: 0.000\tTV Loss: 31.505\tTotal Loss: 1725.813\nCLIP Loss: 1696.730\tRange Loss: 0.000\tTV Loss: 32.666\tTotal Loss: 1729.396\nCLIP Loss: 1694.676\tRange Loss: 0.000\tTV Loss: 33.612\tTotal Loss: 1728.289\nCLIP Loss: 1695.858\tRange Loss: 0.000\tTV Loss: 34.475\tTotal Loss: 1730.333\nCLIP Loss: 1695.084\tRange Loss: 0.000\tTV Loss: 35.342\tTotal Loss: 1730.425\nCLIP Loss: 1695.160\tRange Loss: 0.000\tTV Loss: 35.862\tTotal Loss: 1731.022\nCLIP Loss: 1696.364\tRange Loss: 0.000\tTV Loss: 36.495\tTotal Loss: 1732.859\nCLIP Loss: 1692.062\tRange Loss: 0.000\tTV Loss: 36.904\tTotal Loss: 1728.965\nCLIP Loss: 1697.581\tRange Loss: 0.000\tTV Loss: 37.393\tTotal Loss: 1734.974\nCLIP Loss: 1700.330\tRange Loss: 0.000\tTV Loss: 37.567\tTotal Loss: 1737.897\nCLIP Loss: 1704.639\tRange Loss: 0.000\tTV Loss: 37.645\tTotal Loss: 1742.285\nCLIP Loss: 1700.328\tRange Loss: 0.000\tTV Loss: 37.449\tTotal Loss: 1737.777\nCLIP Loss: 1699.126\tRange Loss: 0.000\tTV Loss: 37.118\tTotal Loss: 1736.244\nCLIP Loss: 1698.241\tRange Loss: 0.000\tTV Loss: 36.585\tTotal Loss: 1734.826\nCLIP Loss: 1694.134\tRange Loss: 0.000\tTV Loss: 35.994\tTotal Loss: 1730.128\nCLIP Loss: 1695.063\tRange Loss: 0.000\tTV Loss: 35.027\tTotal Loss: 1730.091\nCLIP Loss: 1689.758\tRange Loss: 0.000\tTV Loss: 34.052\tTotal Loss: 1723.810\nCLIP Loss: 1693.214\tRange Loss: 0.000\tTV Loss: 32.647\tTotal Loss: 1725.862\nCLIP Loss: 1692.445\tRange Loss: 0.000\tTV Loss: 31.163\tTotal Loss: 1723.608\nCLIP Loss: 1695.202\tRange Loss: 0.000\tTV Loss: 29.671\tTotal Loss: 1724.874\nCLIP Loss: 1697.062\tRange Loss: 0.000\tTV Loss: 27.698\tTotal Loss: 1724.760\nCLIP Loss: 1686.956\tRange Loss: 0.000\tTV Loss: 25.635\tTotal Loss: 1712.591\nCLIP Loss: 1688.420\tRange Loss: 0.000\tTV Loss: 23.370\tTotal Loss: 1711.790\nCLIP Loss: 1689.711\tRange Loss: 0.000\tTV Loss: 21.342\tTotal Loss: 1711.053\nCLIP Loss: 1691.380\tRange Loss: 0.000\tTV Loss: 18.895\tTotal Loss: 1710.276\nCLIP Loss: 1682.661\tRange Loss: 0.000\tTV Loss: 16.495\tTotal Loss: 1699.156\nCLIP Loss: 1688.122\tRange Loss: 0.000\tTV Loss: 14.377\tTotal Loss: 1702.499\nCLIP Loss: 1683.756\tRange Loss: 0.000\tTV Loss: 11.932\tTotal Loss: 1695.688\nCLIP Loss: 1684.172\tRange Loss: 0.000\tTV Loss: 9.574\tTotal Loss: 1693.747\nCLIP Loss: 1683.385\tRange Loss: 0.000\tTV Loss: 7.631\tTotal Loss: 1691.016\nCLIP Loss: 1678.510\tRange Loss: 0.000\tTV Loss: 5.604\tTotal Loss: 1684.114\nCLIP Loss: 1683.741\tRange Loss: 0.000\tTV Loss: 3.756\tTotal Loss: 1687.497\nCLIP Loss: 1684.155\tRange Loss: 0.000\tTV Loss: 2.261\tTotal Loss: 1686.416\nCLIP Loss: 1688.323\tRange Loss: 0.000\tTV Loss: 1.284\tTotal Loss: 1689.607\nCLIP Loss: 1731.528\tRange Loss: 0.000\tTV Loss: 0.545\tTotal Loss: 1732.073\n",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 15,
+         "strenght": "7",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 15,
+         "strenght": "Using device cuda\n--wandb_project not specified. Skipping W&B integration.\nLoading clip model\tViT-B/32\ton device\tcuda.\nCLIP Loss: 865.750\tRange Loss: 0.001\tTV Loss: 11.196\tTotal Loss: 876.947\nCLIP Loss: 858.698\tRange Loss: 0.000\tTV Loss: 10.135\tTotal Loss: 868.834\nCLIP Loss: 877.699\tRange Loss: 0.001\tTV Loss: 12.861\tTotal Loss: 890.561\nCLIP Loss: 866.755\tRange Loss: 1.405\tTV Loss: 1.437\tTotal Loss: 869.597\nCLIP Loss: 858.216\tRange Loss: 0.313\tTV Loss: 0.777\tTotal Loss: 859.306\nCLIP Loss: 853.949\tRange Loss: 0.406\tTV Loss: 0.740\tTotal Loss: 855.095\nCLIP Loss: 849.705\tRange Loss: 0.266\tTV Loss: 0.413\tTotal Loss: 850.385\nCLIP Loss: 844.718\tRange Loss: 0.147\tTV Loss: 0.471\tTotal Loss: 845.336\nCLIP Loss: 845.839\tRange Loss: 0.037\tTV Loss: 0.609\tTotal Loss: 846.485\nCLIP Loss: 846.954\tRange Loss: 0.040\tTV Loss: 0.764\tTotal Loss: 847.759\nCLIP Loss: 845.218\tRange Loss: 0.022\tTV Loss: 1.126\tTotal Loss: 846.366\nCLIP Loss: 839.111\tRange Loss: 0.023\tTV Loss: 1.177\tTotal Loss: 840.311\nCLIP Loss: 851.577\tRange Loss: 0.018\tTV Loss: 1.572\tTotal Loss: 853.167\nCLIP Loss: 838.288\tRange Loss: 0.013\tTV Loss: 2.605\tTotal Loss: 840.906\nCLIP Loss: 835.008\tRange Loss: 0.009\tTV Loss: 4.464\tTotal Loss: 839.480\nCLIP Loss: 831.386\tRange Loss: 0.006\tTV Loss: 7.923\tTotal Loss: 839.315\nCLIP Loss: 833.279\tRange Loss: 0.006\tTV Loss: 13.066\tTotal Loss: 846.350\nCLIP Loss: 825.551\tRange Loss: 0.004\tTV Loss: 20.083\tTotal Loss: 845.638\nCLIP Loss: 828.214\tRange Loss: 0.003\tTV Loss: 28.047\tTotal Loss: 856.263\nCLIP Loss: 827.950\tRange Loss: 0.002\tTV Loss: 35.113\tTotal Loss: 863.064\nCLIP Loss: 829.922\tRange Loss: 0.001\tTV Loss: 38.178\tTotal Loss: 868.101\nCLIP Loss: 827.770\tRange Loss: 0.001\tTV Loss: 34.818\tTotal Loss: 862.589\nCLIP Loss: 825.885\tRange Loss: 0.000\tTV Loss: 24.252\tTotal Loss: 850.137\nCLIP Loss: 828.642\tRange Loss: 0.000\tTV Loss: 10.268\tTotal Loss: 838.910\nCLIP Loss: 852.680\tRange Loss: 0.000\tTV Loss: 0.730\tTotal Loss: 853.410\n",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 16,
+         "strenght": "7",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 16,
+         "strenght": "Using device cuda\n--wandb_project not specified. Skipping W&B integration.\nLoading clip model\tViT-B/32\ton device\tcuda.\nCLIP Loss: 864.637\tRange Loss: 0.001\tTV Loss: 11.196\tTotal Loss: 875.834\nCLIP Loss: 857.414\tRange Loss: 0.000\tTV Loss: 10.095\tTotal Loss: 867.509\nCLIP Loss: 872.671\tRange Loss: 0.002\tTV Loss: 11.639\tTotal Loss: 884.312\nCLIP Loss: 869.300\tRange Loss: 3.551\tTV Loss: 2.507\tTotal Loss: 875.358\nCLIP Loss: 858.387\tRange Loss: 1.152\tTV Loss: 1.644\tTotal Loss: 861.183\nCLIP Loss: 850.802\tRange Loss: 0.329\tTV Loss: 0.833\tTotal Loss: 851.964\nCLIP Loss: 850.852\tRange Loss: 0.191\tTV Loss: 0.824\tTotal Loss: 851.866\nCLIP Loss: 860.790\tRange Loss: 0.128\tTV Loss: 1.003\tTotal Loss: 861.921\nCLIP Loss: 842.039\tRange Loss: 0.051\tTV Loss: 0.839\tTotal Loss: 842.930\nCLIP Loss: 841.367\tRange Loss: 0.058\tTV Loss: 0.731\tTotal Loss: 842.155\nCLIP Loss: 834.870\tRange Loss: 0.037\tTV Loss: 0.750\tTotal Loss: 835.657\nCLIP Loss: 834.077\tRange Loss: 0.041\tTV Loss: 0.860\tTotal Loss: 834.977\nCLIP Loss: 840.185\tRange Loss: 0.028\tTV Loss: 1.264\tTotal Loss: 841.476\nCLIP Loss: 842.891\tRange Loss: 0.025\tTV Loss: 2.217\tTotal Loss: 845.133\nCLIP Loss: 842.001\tRange Loss: 0.017\tTV Loss: 4.086\tTotal Loss: 846.104\nCLIP Loss: 836.886\tRange Loss: 0.015\tTV Loss: 7.423\tTotal Loss: 844.324\nCLIP Loss: 836.087\tRange Loss: 0.013\tTV Loss: 12.569\tTotal Loss: 848.669\nCLIP Loss: 834.124\tRange Loss: 0.008\tTV Loss: 19.616\tTotal Loss: 853.748\nCLIP Loss: 839.499\tRange Loss: 0.005\tTV Loss: 27.558\tTotal Loss: 867.061\nCLIP Loss: 836.634\tRange Loss: 0.004\tTV Loss: 34.665\tTotal Loss: 871.302\nCLIP Loss: 842.150\tRange Loss: 0.003\tTV Loss: 37.815\tTotal Loss: 879.967\nCLIP Loss: 839.486\tRange Loss: 0.002\tTV Loss: 34.512\tTotal Loss: 874.001\nCLIP Loss: 837.114\tRange Loss: 0.001\tTV Loss: 24.000\tTotal Loss: 861.115\nCLIP Loss: 834.992\tRange Loss: 0.001\tTV Loss: 10.030\tTotal Loss: 845.023\nCLIP Loss: 852.682\tRange Loss: 0.001\tTV Loss: 0.520\tTotal Loss: 853.203\n",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 17,
+         "strenght": "20",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 17,
+         "strenght": "Using device cuda\n--wandb_project not specified. Skipping W&B integration.\nLoading clip model\tViT-B/32\ton device\tcuda.\nCLIP Loss: 882.785\tRange Loss: 0.001\tTV Loss: 11.196\tTotal Loss: 893.982\nCLIP Loss: 874.291\tRange Loss: 0.000\tTV Loss: 6.815\tTotal Loss: 881.105\nCLIP Loss: 880.199\tRange Loss: 0.000\tTV Loss: 1.022\tTotal Loss: 881.221\nCLIP Loss: 887.295\tRange Loss: 0.000\tTV Loss: 1.441\tTotal Loss: 888.736\nCLIP Loss: 878.059\tRange Loss: 0.000\tTV Loss: 0.474\tTotal Loss: 878.533\nCLIP Loss: 873.530\tRange Loss: 0.000\tTV Loss: 0.527\tTotal Loss: 874.057\nCLIP Loss: 873.286\tRange Loss: 0.000\tTV Loss: 0.331\tTotal Loss: 873.617\nCLIP Loss: 888.651\tRange Loss: 0.000\tTV Loss: 0.237\tTotal Loss: 888.889\nCLIP Loss: 871.579\tRange Loss: 0.000\tTV Loss: 0.487\tTotal Loss: 872.065\nCLIP Loss: 865.461\tRange Loss: 0.000\tTV Loss: 0.457\tTotal Loss: 865.918\nCLIP Loss: 857.872\tRange Loss: 0.000\tTV Loss: 0.641\tTotal Loss: 858.513\nCLIP Loss: 858.284\tRange Loss: 0.000\tTV Loss: 1.007\tTotal Loss: 859.291\nCLIP Loss: 866.112\tRange Loss: 0.000\tTV Loss: 1.524\tTotal Loss: 867.636\nCLIP Loss: 861.724\tRange Loss: 0.000\tTV Loss: 2.825\tTotal Loss: 864.549\nCLIP Loss: 862.156\tRange Loss: 0.000\tTV Loss: 4.682\tTotal Loss: 866.838\nCLIP Loss: 861.328\tRange Loss: 0.000\tTV Loss: 8.222\tTotal Loss: 869.550\nCLIP Loss: 859.288\tRange Loss: 0.000\tTV Loss: 13.418\tTotal Loss: 872.706\nCLIP Loss: 860.513\tRange Loss: 0.000\tTV Loss: 20.523\tTotal Loss: 881.035\nCLIP Loss: 857.046\tRange Loss: 0.000\tTV Loss: 28.529\tTotal Loss: 885.575\nCLIP Loss: 856.045\tRange Loss: 0.000\tTV Loss: 35.746\tTotal Loss: 891.791\nCLIP Loss: 850.130\tRange Loss: 0.000\tTV Loss: 38.891\tTotal Loss: 889.021\nCLIP Loss: 857.069\tRange Loss: 0.000\tTV Loss: 35.494\tTotal Loss: 892.563\nCLIP Loss: 855.693\tRange Loss: 0.000\tTV Loss: 24.797\tTotal Loss: 880.490\nCLIP Loss: 854.016\tRange Loss: 0.000\tTV Loss: 10.505\tTotal Loss: 864.521\nCLIP Loss: 859.461\tRange Loss: 0.000\tTV Loss: 0.634\tTotal Loss: 860.095\n",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 18,
+         "strenght": "57",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 18,
+         "strenght": "Us",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 18,
+         "strenght": "CL",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 19,
+         "strenght": "7#",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 19,
+         "strenght": "Us",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 20,
+         "strenght": "77",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 20,
+         "strenght": "Us",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 20,
+         "strenght": "CL",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 21,
+         "strenght": {
+            "type": "Buffer",
+            "data": [
+               53,
+               57
+            ]
+         },
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 21,
+         "strenght": {
+            "type": "Buffer",
+            "data": [
+               53,
+               57
+            ]
+         },
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 21,
+         "strenght": {
+            "type": "Buffer",
+            "data": [
+               53,
+               57
+            ]
+         },
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 22,
+         "strenght": 0,
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 22,
+         "strenght": {
+            "type": "Buffer",
+            "data": [
+               52,
+               53
+            ]
+         },
+         "likes": 0
+>>>>>>> 5bb44e6de776d6d406f61370e0175084f37bf928
       }
    ]
 }
