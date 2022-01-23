@@ -53,20 +53,22 @@ app.get('/addImage', function (req, res) {
 
 // function to return the add event page
 app.post('/send_password', function (req, res) {
-
+  const dire = './images';
     fs.readdir(dire, (err, files) => {
         counter = files.length;
         let password = req.body.password;
-        const python = spawn('python3', ['script.py', password, (counter + 1)]);
-    })
-
-
-    //DELETE THIS AFTER IT JST TRACKS BUFFER FROM PYTHONs
-    python.stdout.on('data', function (data) {
-        console.log('Pipe data from python script ...');
+        const python = spawn('python3', ['generateImage.py', password, (counter + 1)]);
+        python.stdout.on('data', function (data) {
+        // console.log('Pipe data from python script ...');
         dataToSend = data.toString();
-        console.log(dataToSend);
-    });
+        // console.log(dataToSend);
+      });
+    
+      })
+
+
+    // //DELETE THIS AFTER IT JST TRACKS BUFFER FROM PYTHONs
+    
 
     res.redirect("/gallery");
 });
