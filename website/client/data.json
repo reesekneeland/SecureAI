@@ -1,0 +1,10 @@
+{
+    "posts":[
+        {
+            "user":"Reese",
+            "counter":1,
+            "strenght":5,
+            "likes":2
+        }
+    ]
+}
