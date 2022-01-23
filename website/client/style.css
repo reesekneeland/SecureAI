@@ -8,9 +8,9 @@
     -webkit-mask-size: cover;
     mask-size: cover;
     cursor: pointer;
+    background-color: rgb(223, 182, 182); 
   }
   
-  .icon-red { background-color: rgb(223, 182, 182);  }
 
   .info {
     margin-bottom: 15px;
