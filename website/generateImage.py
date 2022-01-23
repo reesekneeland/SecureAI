@@ -39,7 +39,7 @@ def getKey():
 
 cmdString = ""
 os.system("echo generating")
-cmdString = ("cgd --image_size 256 -respace 25 --prompts \"" + password + ":1")
+cmdString = ("cgd --image_size 256 -respace 150 --prompts \"" + password + ":1")
 complexityWeight = 0.005*strengthScore
 prompts = 1 + int(strengthScore / 30)
 os.system("echo promptCount: " + str(prompts))
@@ -64,5 +64,4 @@ while("AIGen" in str(stdout)):
     stdout,stderr = out.communicate()
     print("processing")
     
-print(filename)
 os.rename("current.png", "/home/reese/Minnehack_2022/minnehack22/website/images/" + filename)
