@@ -50,13 +50,12 @@ app.get('/gallery', function (req, res) {
 app.get('/addImage', function (req, res) {
     res.sendFile(__dirname + '/client/addImage.html');
 });
-
+let passNum;
 // function to return the add event page
 app.post('/send_password', function (req, res) {
     const dire = './images';
     fs.readdir(dire, (err, files) => {
         counter = files.length;
-        let sthrenght = 0;
         let password = req.body.password;
         let username = req.body.name_user;
         //console.log(username);
@@ -67,22 +66,25 @@ app.post('/send_password', function (req, res) {
             dataToSend = data.toString();
             console.log(dataToSend);
 
+            fs.readFile('score.txt', function (err, data1) {
+                if (err) {
+                    throw err;
+                }
+                passNum = data1;
+                console.log("Here is the data: " + passNum);
+            });
+
             fs.readFile('client/data.json', function (err, jsonData) {
                 if (err) {
                     throw err;
                 }
                 //  Parse the schedule.json file and
                 //  the post request with
-                fs.readFile('score.txt', function (err, data) {
-                    if (err) {
-                        throw err;
-                    }
-                    sthrenght = data;
-                });
                 let jsonFileData = JSON.parse(jsonData);
                 let newJsonContent = {
-                    user: username, counter: (counter + 1), strenght: sthrenght, likes: 0
+                    user: username, counter: (counter + 1), strength: passNum.toString(), likes: 0
                 };
+                console.log(newJsonContent)
                 jsonFileData.posts.push(newJsonContent);
 
                 fs.writeFile("client/data.json", JSON.stringify(jsonFileData, null, 3), function (err) {

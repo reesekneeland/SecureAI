@@ -82,7 +82,7 @@
     console.log(counter);
     for (i = 1; i <= counter; i++) {
       console.log()
-      $("#gallery").append("\<div class=\"col-xl-3 col-lg-4 col-md-6 mb-4\"\>\<div class=\"bg-white rounded shadow-sm\"\>\<img src=\"http://localhost:9007/" + i + ".png\" alt=\"\" class=\"img-fluid card-img-top\"\>\<div class=\"p - 4\"\>\<h5\> \<a href=\"#\" class=\"text-dark\"\>" + dataj.posts[i-1].user+ "\</h5\>\<p class=\"small text-muted mb-0\"\>" +"Password strenght: "+ dataj.posts[i-1].strenght + "\</p\>\<div class=\"d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4\"\>\<p class=\"small mb-0\"\>\<i class=\"fa fa-picture-o mr-2\"\>\</i\>\<span class=\"font-weight-bold\"\>"+"Likes: "+ dataj.posts[i-1].likes + "\</span\>\</p\>\<div class=\"badge\"\>\<div id=\"" + i + "\" class=\"icon\"\>\</div\>\</div\>\</div\>\</div \>\</div \>\</div \> ");
+      $("#gallery").append("\<div class=\"col-xl-3 col-lg-4 col-md-6 mb-4\"\>\<div class=\"bg-white rounded shadow-sm\"\>\<img src=\"http://localhost:9007/" + i + ".png\" alt=\"\" class=\"img-fluid card-img-top\"\>\<div class=\"p - 4\"\>\<h5\> \<a href=\"#\" class=\"text-dark\"\>" + dataj.posts[i-1].user+ "\</h5\>\<p class=\"small text-muted mb-0\"\>" +"Password strength: "+ dataj.posts[i-1].strength + "\</p\>\<div class=\"d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4\"\>\<p class=\"small mb-0\"\>\<i class=\"fa fa-picture-o mr-2\"\>\</i\>\<span class=\"font-weight-bold\"\>"+"Likes: "+ dataj.posts[i-1].likes + "\</span\>\</p\>\<div class=\"badge\"\>\<div id=\"" + i + "\" class=\"icon\"\>\</div\>\</div\>\</div\>\</div \>\</div \>\</div \> ");
     }
 
     // console.log(document.getElementById('heart_icon'));
