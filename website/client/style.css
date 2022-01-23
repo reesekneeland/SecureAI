@@ -7,6 +7,6 @@
     mask: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/18515/heart.svg) no-repeat 50% 50%;
     -webkit-mask-size: cover;
     mask-size: cover;
+    cursor: pointer;
+    background-color: rgb(223, 182, 182);
   }
-  
-  .icon-red { background-color: rgb(223, 182, 182);  }
