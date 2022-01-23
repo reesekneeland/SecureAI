@@ -86,9 +86,6 @@ app.post('/send_password', function (req, res) {
                 };
                 console.log(newJsonContent)
                 jsonFileData.posts.push(newJsonContent);
-                jsonFileData.posts.sort(function (a, b) {
-                    return a.likes.localeCompare(b.likes);
-                })
 
                 fs.writeFile("client/data.json", JSON.stringify(jsonFileData, null, 3), function (err) {
                     if (err) {
@@ -127,7 +124,6 @@ app.post('/updateLike', function (req, res) {
 });
 
 app.get('/getImages', function (req, res) {
-
     counter = 0;
     const dire = './images';
     fs.readdir(dire, (err, files) => {

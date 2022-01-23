@@ -11,10 +11,16 @@
     background-color: rgb(223, 182, 182); 
   }
   
-
   .info {
     margin-bottom: 15px;
     padding: 4px 12px;
     background-color: #e7f3fe;
     border-left: 6px solid #2196F3;
+  }
+
+  .pass {
+    margin-bottom: 15px;
+    padding: 4px 12px;
+    background-color: rgb(221, 132, 132);
+    border-left: 6px solid rgb(124, 24, 24);
   }
