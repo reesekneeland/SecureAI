@@ -53,19 +53,44 @@ app.get('/addImage', function (req, res) {
 
 // function to return the add event page
 app.post('/send_password', function (req, res) {
-  const dire = './images';
+    const dire = './images';
     fs.readdir(dire, (err, files) => {
         counter = files.length;
-        let password = req.body.password;    
-        console.log(counter);
+        let sthrenght = 0;
+        let password = req.body.password;
+        let username = req.body.name_user;
+        //console.log(username);
         const python = spawn('python3', ['generateImage.py', password, (counter + 1)]);
         python.stdout.on('data', function (data) {
-        // console.log('Pipe data from python script ...');
-        dataToSend = data.toString();
-        console.log(dataToSend);
-        });
-      })
+            // console.log('Pipe data from python script ...');
+            dataToSend = data.toString();
+            sthrenght = 0;
+            sthrenght= dataToSend.split('\n')[0];
 
+            console.log(sthrenght);
+
+            fs.readFile('client/data.json', function (err, jsonData) {
+                if (err) {
+                    throw err;
+                }
+                //  Parse the schedule.json file and
+                //  the post request with
+                let jsonFileData = JSON.parse(jsonData);
+                let newJsonContent = {
+                    user: username, counter: (counter + 1), strenght: sthrenght, likes: 0
+                };
+                jsonFileData.posts.push(newJsonContent);
+
+                fs.writeFile("client/data.json", JSON.stringify(jsonFileData, null, 3), function (err) {
+                    if (err) {
+                        throw err;
+                    }
+                });
+            });
+        });
+
+
+    });
 
     res.redirect("/gallery");
 });
