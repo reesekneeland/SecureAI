@@ -28,8 +28,7 @@ var path = require('path');
 app.use(bodyparser());
 
 app.use(express.static('images'));
-
-
+app.use(express.static('client'));
 
 // server listens on port 9007 for incoming connections
 app.listen(9007, () => console.log('Listening on port 9007!'));
