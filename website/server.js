@@ -65,6 +65,7 @@ app.post('/send_password', function (req, res) {
 
             dataToSend = data.toString();
             console.log(dataToSend);
+        });
 
             fs.readFile('score.txt', function (err, data1) {
                 if (err) {
@@ -93,9 +94,6 @@ app.post('/send_password', function (req, res) {
                     }
                 });
             });
-        });
-
-
     });
 
     res.redirect("/gallery");

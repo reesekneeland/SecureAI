@@ -2,109 +2,109 @@
    "posts": [
       {
          "user": "Mike",
-         "counter": 12,
-         "strength": "71",
+         "counter": 1,
+         "strength": "31",
          "likes": 7
       },
       {
          "user": "Skylan",
-         "counter": 8,
-         "strength": "18",
+         "counter": 2,
+         "strength": "82",
          "likes": 7
       },
       {
          "user": "Anonymous",
-         "counter": 14,
-         "strength": "7",
+         "counter": 3,
+         "strength": "45",
          "likes": 2
       },
       {
          "user": "Jovan",
-         "counter": 3,
+         "counter": 4,
          "strength": "100",
          "likes": 1
       },
       {
          "user": "Trace",
-         "counter": 13,
-         "strength": "26",
+         "counter": 5,
+         "strength": "85",
          "likes": 4
       },
       {
          "user": "Trace",
-         "counter": 13,
+         "counter": 6,
          "strength": "26",
          "likes": 7
       },
       {
          "user": "Mike",
-         "counter": 12,
+         "counter": 7,
          "strength": "71",
          "likes": 4
       },
       {
          "user": "Anonymous",
-         "counter": 4,
+         "counter": 8,
          "strength": "61",
          "likes": 0
       },
       {
          "user": "Anonymous",
-         "counter": 4,
+         "counter": 9,
          "strength": "61",
          "likes": 3
       },
       {
          "user": "Anonymous",
-         "counter": 5,
-         "strength": "47",
+         "counter": 10,
+         "strength": "90",
          "likes": 6
       },
       {
          "user": "Anonymous",
-         "counter": 5,
+         "counter": 11,
          "strength": "47",
          "likes": 1
       },
       {
          "user": "Anonymous",
-         "counter": 6,
-         "strength": "47",
+         "counter": 12,
+         "strength": "78",
          "likes": 4
       },
       {
          "user": "Anonymous",
-         "counter": 6,
+         "counter": 13,
          "strength": "59",
          "likes": 3
       },
       {
          "user": "Anonymous",
-         "counter": 6,
-         "strength": "59",
+         "counter": 14,
+         "strength": "15",
          "likes": 0
       },
       {
          "user": "Anonymous",
-         "counter": 7,
+         "counter": 15,
          "strength": "27",
          "likes": 0
       },
       {
          "user": "Anonymous",
-         "counter": 14,
-         "strength": "7",
+         "counter": 16,
+         "strength": "78",
          "likes": 2
       },
       {
          "user": "Anonymous",
-         "counter": 2,
-         "strength": "26",
+         "counter": 17,
+         "strength": "56",
          "likes": 0
       },
       {
          "user": "Skylan",
-         "counter": 8,
+         "counter": 18,
          "strength": "18",
          "likes": 0
       },
@@ -124,18 +124,24 @@
          "user": "Reese Kneeland",
          "counter": 21,
          "strength": "77",
-         "likes": 1
+         "likes": 2
       },
       {
          "user": "Reese Kneeland",
-         "counter": 21,
+         "counter": 22,
          "strength": "77",
          "likes": 0
       },
       {
-         "user": "Reese Kneeland",
-         "counter": 21,
-         "strength": "77",
+         "user": "DuplicationMan",
+         "counter": 23,
+         "strength": "31",
+         "likes": 0
+      },
+      {
+         "user": "Anonymous",
+         "counter": 24,
+         "strength": "57",
          "likes": 0
       }
    ]
