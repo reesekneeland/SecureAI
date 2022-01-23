@@ -4,15 +4,6 @@
          "user": "Reese",
          "counter": 1,
          "strenght": "5",
-<<<<<<< HEAD
-         "likes": 27
-      },
-      {
-         "user": "Reese",
-         "counter": 2,
-         "strenght": "5",
-         "likes": 28
-=======
          "likes": 2
       },
       {
@@ -350,7 +341,6 @@
             ]
          },
          "likes": 0
->>>>>>> 5bb44e6de776d6d406f61370e0175084f37bf928
       }
    ]
 }
