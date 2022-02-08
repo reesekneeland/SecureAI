@@ -21,6 +21,9 @@ The application we built takes in a password as a text input from the user, and 
 
 ## How we built it
 The web interface was coded from scratch in Node.js, and is hosted locally on a pc using a 3080ti to run the image generation algorithm, which utilizes a pytorch framework and some ImageNet training data to generate an image based on the provided text. The image is then fed back into our web interface and displayed alongside the number of likes it has and the password strength score displayed underneath it.
+
+![Screenshot from 2022-01-23 14-07-34](https://user-images.githubusercontent.com/77468346/153017139-da82fb77-801e-471b-bc76-1205aac8edcb.png)
+
 ## Challenges we ran into
 We initially tried hosting our application inside a flask container, but ran into a multitude of issues with the library setup and eventually abandoned it to create our own website from scratch . We also put a lot of effort into getting the machine learning libraries to behave the way we wanted, with the majority of our time was spend debugging and configuring our image generation software to the parameters we wanted.
 ## Accomplishments that we're proud of
@@ -32,6 +35,9 @@ Our project serves mostly as a proof of concept, there is so much more we could 
 
 ## Developer Credits
 Reese Kneeland
+
 Jordyn Ojeda
+
 Jovan Petrovic
+
 Skylan Recana
