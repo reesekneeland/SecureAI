@@ -2,7 +2,7 @@
 ![image](https://user-images.githubusercontent.com/77468346/153016635-d579647c-807b-4891-8793-88d93bdc9acf.png)
 
 ### Harness the power of machine learning to test the strength of your passwords, and generate an encrypted piece of digital art depicting the keys to your digital world. Compete against your friends!
-A code repository for the SecureAI project created during Minnehack 2022, under the prompt "Write a piece of software that helps make digital privacy accessible". Clip guided diffusion code provided by Clay Mullis, which you can find here: https://github.com/afiaka87/clip-guided-diffusion.
+A code repository for the SecureAI project created during Minnehack 2022, under the prompt "Write a piece of software that helps make digital privacy accessible". Clip guided diffusion code built on top of a framework by Clay Mullis, which you can find here: https://github.com/afiaka87/clip-guided-diffusion.
 
 **PROJECT IS NO LONGER LIVE FOR NEW SUBMISSIONS AND VOTING.**
 
